@@ -1,0 +1,27 @@
+{
+  "name": "tech-outlook",
+  "version": "1.0.0",
+  "description": "## Background TechCities-Outlook is a data visualization of the top 20 major tech cities in the US. This project will display each cities growth in the tech industry. TechCities-Outlook will display each cities growth by using number of tech jobs. Each city will be displayed in a bubble. A larger bubble will equate to a higher number of tech jobs in that specific city.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode=development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-nguyenn/TechCities-Outlook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin-nguyenn/TechCities-Outlook/issues"
+  },
+  "homepage": "https://github.com/kevin-nguyenn/TechCities-Outlook#readme",
+  "dependencies": {
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
