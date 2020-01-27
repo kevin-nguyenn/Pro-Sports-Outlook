@@ -15,3 +15,8 @@ be displayed in a bubble. A larger bubble will equate to a higher number of tech
 ## Technologies
 * Javascript
 * D3
+
+## Implementation Timeline
+* Basic grid - 1 day
+* City bubbles - 1 day
+* Play functionality - 2 days
