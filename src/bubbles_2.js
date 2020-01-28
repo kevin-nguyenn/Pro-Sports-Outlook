@@ -1,103 +1,103 @@
 let data = [
   {
     cat: "CA",
+    name: "Los Angeles",
+    value: 91.5
+  },
+  {
+    cat: "CA",
     name: "San Jose",
-    value: 30
+    value: 112.4
   },
   {
     cat: "CA",
     name: "San Francisco",
-    value: 10
+    value: 115.8
   },
   {
     cat: "CO",
     name: "Boulder",
-    value: 70
+    value: 89
   },
   {
     cat: "CO",
     name: "Denver",
-    value: 40
-  },
-  {
-    cat: "CO",
-    name: "Fort Collins",
-    value: 30
-  },
-  {
-    cat: "CT",
-    name: "Hartford",
-    value: 30
+    value: 82.7
   },
   {
     cat: "D.C.",
     name: "Washington",
-    value: 20
+    value: 89.1
   },
   {
     cat: "FL",
     name: "Miami",
-    value: 80,
+    value: 78.6
   },
   {
     cat: "GA",
     name: "Atlanta",
-    value: 30
+    value: 79
+  },
+  {
+    cat: "IL",
+    name: "Chicago",
+    value: 82.1
   },
   {
     cat: "MA",
     name: "Boston",
-    value: 50
+    value: 89.6
   },
   {
     cat: "MI",
     name: "Ann Arbor",
-    value: 10
+    value: 75.8
   },
   {
     cat: "MN",
     name: "Minneapolis",
-    value: 30
+    value: 78
   },
   {
     cat: "MO",
     name: "St. Louis",
-    value: 50
+    value: 77.5
+  },
+  {
+    cat: "NC",
+    name: "Charlotte",
+    value: 76.9
   },
   {
     cat: "NC",
     name: "Durham",
-    value: 100
-  },
-  {
-    cat: "NY",
-    name: "Ithaca",
-    value: 10
+    value: 79.9
   },
   {
     cat: "NY",
     name: "New York",
-    value: 70
+    value: 97.2
+  },
+  {
+    cat: "OR",
+    name: "Portland",
+    value: 86.1
   },
   {
     cat: "UT",
     name: "Salt Lake City",
-    value: 30
-  },
-  {
-    cat: "VA",
-    name: "Charlottesville",
-    value: 100
+    value: 80.2
   },
   {
     cat: "WA",
     name: "Seattle",
-    value: 50
+    value: 106.3
   },
   {
     cat: "WI",
     name: "Madison",
-    value: 30
+    value: 84.9
   }
 ];
 
@@ -119,7 +119,7 @@ let pack = d3
   .size([width, height])
   .padding(1.5);
 
-let forceCollide = d3.forceCollide(d => d.r + 1);
+let forceCollide = d3.forceCollide(d => d.r + 2);
 
 // use the force
 let simulation = d3
@@ -158,9 +158,7 @@ let nodes = pack(root)
       id: data.cat + "." + data.name.replace(/\s/g, "-"),
       cat: data.cat,
       name: data.name,
-      value: data.value,
-      icon: data.icon,
-      desc: data.desc
+      value: data.value
     };
   });
 simulation.nodes(nodes).on("tick", ticked);
@@ -220,7 +218,7 @@ node
   .classed("node-icon", true)
   .attr("clip-path", d => `url(#clip-${d.id})`)
   .selectAll("tspan")
-//   .data(d => d.icon.split(";"))
+  .data(d => d.name.split(";"))
   .enter()
   .append("tspan")
   .attr("x", 0)
@@ -250,13 +248,13 @@ let legend = svg
   .append("g")
   .classed("legend-color", true)
   .attr("text-anchor", "start")
-  .attr("transform", "translate(20,30)")
+  .attr("transform", "translate(20,25)")
   .style("font-size", "12px")
   .call(legendOrdinal);
 
 let sizeScale = d3
   .scaleOrdinal()
-  .domain(["less use", "more use"])
+  .domain(["lower average salaray", "higher average salary"])
   .range([5, 10]);
 
 let legendSize = d3
@@ -287,8 +285,8 @@ let infoBox = node
   .classed("circle-overlay hidden", true)
   .attr("x", -350 * 0.5 * 0.8)
   .attr("y", -350 * 0.5 * 0.8)
-  .attr("height", 350 * 0.8)
-  .attr("width", 350 * 0.8)
+//   .attr("height", 350 * 0.8)
+//   .attr("width", 350 * 0.8)
   .append("xhtml:div")
   .classed("circle-overlay__inner", true);
 
