@@ -2,102 +2,122 @@ let data = [
   {
     cat: "CA",
     name: "Los Angeles",
-    value: 91.5
+    value: 91.5,
+    desc: `fill`
   },
   {
     cat: "CA",
     name: "San Jose",
-    value: 112.4
+    value: 112.4,
+    desc: `fill`
   },
   {
     cat: "CA",
     name: "San Francisco",
-    value: 115.8
+    value: 115.8,
+    desc: `fill`
   },
   {
     cat: "CO",
     name: "Boulder",
-    value: 89
+    value: 89,
+    desc: `fill`
   },
   {
     cat: "CO",
     name: "Denver",
-    value: 82.7
+    value: 82.7,
+    desc: `fill`
   },
   {
     cat: "D.C.",
     name: "Washington",
-    value: 89.1
+    value: 89.1,
+    desc: `fill`
   },
   {
     cat: "FL",
     name: "Miami",
-    value: 78.6
+    value: 78.6,
+    desc: `fill`
   },
   {
     cat: "GA",
     name: "Atlanta",
-    value: 79
+    value: 79,
+    desc: `fill`
   },
   {
     cat: "IL",
     name: "Chicago",
-    value: 82.1
+    value: 82.1,
+    desc: `fill`
   },
   {
     cat: "MA",
     name: "Boston",
-    value: 89.6
+    value: 89.6,
+    desc: `fill`
   },
   {
     cat: "MI",
     name: "Ann Arbor",
-    value: 75.8
+    value: 75.8,
+    desc: `fill`
   },
   {
     cat: "MN",
     name: "Minneapolis",
-    value: 78
+    value: 78,
+    desc: `fill`
   },
   {
     cat: "MO",
     name: "St. Louis",
-    value: 77.5
+    value: 77.5,
+    desc: `fill`
   },
   {
     cat: "NC",
     name: "Charlotte",
-    value: 76.9
+    value: 76.9,
+    desc: `fill`
   },
   {
     cat: "NC",
     name: "Durham",
-    value: 79.9
+    value: 79.9,
+    desc: `fill`
   },
   {
     cat: "NY",
     name: "New York",
-    value: 97.2
+    value: 97.2,
+    desc: `fill`
   },
   {
     cat: "OR",
     name: "Portland",
-    value: 86.1
+    value: 86.1,
+    desc: `fill`
   },
   {
     cat: "UT",
     name: "Salt Lake City",
-    value: 80.2
+    value: 80.2,
+    desc: `fill`
   },
   {
     cat: "WA",
     name: "Seattle",
-    value: 106.3
+    value: 106.3,
+    desc: `fill`
   },
   {
     cat: "WI",
     name: "Madison",
-    value: 84.9
+    value: 84.9,
+    desc: `fill`
   }
 ];
 
@@ -158,7 +178,8 @@ let nodes = pack(root)
       id: data.cat + "." + data.name.replace(/\s/g, "-"),
       cat: data.cat,
       name: data.name,
-      value: data.value
+      value: data.value,
+      desc: data.desc
     };
   });
 simulation.nodes(nodes).on("tick", ticked);
