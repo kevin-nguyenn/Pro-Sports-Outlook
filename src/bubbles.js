@@ -1,37 +1,26 @@
-// (function() {
-//     const width = 500;
-//     const height = 500;
-
-//     let svg = d3.select('#chart')
-//         .append('svg')
-//         .attr('height', height)
-//         .attr('width', width)
-//         .append('g')
-//         .attr('transform', 'translate(0,0)')
-
-//     d3.queue()
-//         .defer(d3.csv, 'tech_cities.csv')
-//         .await(ready)
-
-//     function ready (error, datapoints) {
-//         let circles = svg.selectAll('.name')
-//             .data(datapoints)
-//             .enter().append('circle')
-//             .attr('class', 'name')
-//             .attr('r', 10)
-//             attr('fill', 'red')
-//     }
-// })();
 
 const json = {
   children: [
-    { name: "Apples", value: 70 },
-    { name: "Oranges", value: 44 },
-    { name: "Kiwis", value: 65 },
-    { name: "Bananas", value: 39 },
-    { name: "Pears", value: 10 },
-    { name: "Satsumas", value: 25 },
-    { name: "Pineapples", value: 30 }
+    { name: "San Jose", value: 80 },
+    { name: "San Francisco", value: 84 },
+    { name: "Boulder", value: 65 },
+    { name: "Denver", value: 39 },
+    { name: "Fort Collins", value: 10 },
+    { name: "Hartford", value: 25 },
+    { name: "Washington", value: 30 },
+    { name: "Miami", value: 35 },
+    { name: "Atlanta", value: 31 },
+    { name: "Boston", value: 40 },
+    { name: "Ann Arbor", value: 33 },
+    { name: "Minneapolis", value: 20 },
+    { name: "St.Louis", value: 25 },
+    { name: "Durham", value: 28 },
+    { name: "Ithaca", value: 26 },
+    { name: "New York", value: 27 },
+    { name: "Salt Lake City", value: 22 },
+    { name: "Charlottesville", value: 23 },
+    { name: "Seattle", value: 38 },
+    { name: "Madison", value: 10 }
   ]
 };
 
@@ -105,7 +94,7 @@ node
   .attr("dy", ".3em")
   .style("text-anchor", "middle")
   .text(function(d) {
-    return d.data.value;
+    return d.data.name;
   })
   .style("fill", "#ffffff");
 
