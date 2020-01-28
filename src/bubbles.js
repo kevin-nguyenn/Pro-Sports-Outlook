@@ -1,7 +1,7 @@
 
 const json = {
   children: [
-    { name: "San Jose", value: 80 },
+    { name: "San Jose", value: 100 },
     { name: "San Francisco", value: 84 },
     { name: "Boulder", value: 65 },
     { name: "Denver", value: 39 },
@@ -24,7 +24,7 @@ const json = {
   ]
 };
 
-const diameter = 600,
+const diameter = 850,
   color = d3.scaleOrdinal(d3.schemeCategory20c);
 
 const colorScale = d3
@@ -40,7 +40,7 @@ const colorScale = d3
 const bubble = d3
   .pack()
   .size([diameter, diameter])
-  .padding(5);
+  .padding(1);
 
 const margin = {
   left: 0,
@@ -103,16 +103,16 @@ svg
   .attr("class", "legendOrdinal")
   .attr("transform", "translate(600,40)");
 
-const legendOrdinal = d3
-  .legendColor()
-  .shape(
-    "path",
-    d3
-      .symbol()
-      .type(d3.symbolSquare)
-      .size(150)()
-  )
-  .shapePadding(10)
-  .scale(color);
+// const legendOrdinal = d3
+//   .legendColor()
+//   .shape(
+//     "path",
+//     d3
+//       .symbol()
+//       .type(d3.symbolSquare)
+//       .size(150)()
+//   )
+//   .shapePadding(10)
+//   .scale(color);
 
-svg.select(".legendOrdinal").call(legendOrdinal);
+// svg.select(".legendOrdinal").call(legendOrdinal);
