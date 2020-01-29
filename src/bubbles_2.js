@@ -1,124 +1,125 @@
 let data = [
-  {
-    cat: "CA",
-    name: "Los Angeles",
-    value: 91.5,
-    desc: `fill`
-  },
-  {
-    cat: "CA",
-    name: "San Jose",
-    value: 112.4,
-    desc: `fill`
-  },
-  {
-    cat: "CA",
-    name: "San Francisco",
-    value: 115.8,
-    desc: `fill`
-  },
-  {
-    cat: "CO",
-    name: "Boulder",
-    value: 89,
-    desc: `fill`
-  },
-  {
-    cat: "CO",
-    name: "Denver",
-    value: 82.7,
-    desc: `fill`
-  },
-  {
-    cat: "D.C.",
-    name: "Washington",
-    value: 89.1,
-    desc: `fill`
-  },
-  {
-    cat: "FL",
-    name: "Miami",
-    value: 78.6,
-    desc: `fill`
-  },
-  {
-    cat: "GA",
-    name: "Atlanta",
-    value: 79,
-    desc: `fill`
-  },
-  {
-    cat: "IL",
-    name: "Chicago",
-    value: 82.1,
-    desc: `fill`
-  },
-  {
-    cat: "MA",
-    name: "Boston",
-    value: 89.6,
-    desc: `fill`
-  },
-  {
-    cat: "MI",
-    name: "Ann Arbor",
-    value: 75.8,
-    desc: `fill`
-  },
-  {
-    cat: "MN",
-    name: "Minneapolis",
-    value: 78,
-    desc: `fill`
-  },
-  {
-    cat: "MO",
-    name: "St. Louis",
-    value: 77.5,
-    desc: `fill`
-  },
-  {
-    cat: "NC",
-    name: "Charlotte",
-    value: 76.9,
-    desc: `fill`
-  },
-  {
-    cat: "NC",
-    name: "Durham",
-    value: 79.9,
-    desc: `fill`
-  },
-  {
-    cat: "NY",
-    name: "New York",
-    value: 97.2,
-    desc: `fill`
-  },
-  {
-    cat: "OR",
-    name: "Portland",
-    value: 86.1,
-    desc: `fill`
-  },
-  {
-    cat: "UT",
-    name: "Salt Lake City",
-    value: 80.2,
-    desc: `fill`
-  },
-  {
-    cat: "WA",
-    name: "Seattle",
-    value: 106.3,
-    desc: `fill`
-  },
-  {
-    cat: "WI",
-    name: "Madison",
-    value: 84.9,
-    desc: `fill`
-  }
+    {
+        cat: "CA",
+        name: "Los Angeles",
+        value: 91.5,
+        desc: `fill`
+    },
+    {
+        cat: "CA",
+        name: "San Jose",
+        value: 112.4,
+        desc: `fill`
+    },
+    // {
+    //     cat: "CA",
+    //     name: "San Francisco",
+    //     value: 115.8,
+    //     icon: 'images/golden-gate.png',
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "CO",
+    //     name: "Boulder",
+    //     value: 89,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "CO",
+    //     name: "Denver",
+    //     value: 82.7,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "D.C.",
+    //     name: "Washington",
+    //     value: 89.1,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "FL",
+    //     name: "Miami",
+    //     value: 78.6,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "GA",
+    //     name: "Atlanta",
+    //     value: 79,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "IL",
+    //     name: "Chicago",
+    //     value: 82.1,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "MA",
+    //     name: "Boston",
+    //     value: 89.6,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "MI",
+    //     name: "Ann Arbor",
+    //     value: 75.8,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "MN",
+    //     name: "Minneapolis",
+    //     value: 78,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "MO",
+    //     name: "St. Louis",
+    //     value: 77.5,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "NC",
+    //     name: "Charlotte",
+    //     value: 76.9,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "NC",
+    //     name: "Durham",
+    //     value: 79.9,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "NY",
+    //     name: "New York",
+    //     value: 97.2,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "OR",
+    //     name: "Portland",
+    //     value: 86.1,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "UT",
+    //     name: "Salt Lake City",
+    //     value: 80.2,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "WA",
+    //     name: "Seattle",
+    //     value: 106.3,
+    //     desc: `fill`
+    // },
+    // {
+    //     cat: "WI",
+    //     name: "Madison",
+    //     value: 84.9,
+    //     desc: `fill`
+    // }
 ];
 
 let svg = d3.select("svg");
@@ -135,30 +136,30 @@ let scaleColor = d3.scaleOrdinal(d3.schemeCategory20);
 
 // use pack to calculate radius of the circle
 let pack = d3
-  .pack()
-  .size([width, height])
-  .padding(1.5);
+    .pack()
+    .size([width, height])
+    .padding(1.5);
 
-let forceCollide = d3.forceCollide(d => d.r + 2);
+let forceCollide = d3.forceCollide(d => d.r + 1);
 
 // use the force
 let simulation = d3
-  .forceSimulation()
-  // .force('link', d3.forceLink().id(d => d.id))
-  .force("charge", d3.forceManyBody())
-  .force("collide", forceCollide)
-  // .force('center', d3.forceCenter(centerX, centerY))
-  .force("x", d3.forceX(centerX).strength(strength))
-  .force("y", d3.forceY(centerY).strength(strength));
+    .forceSimulation()
+    // .force('link', d3.forceLink().id(d => d.id))
+    .force("charge", d3.forceManyBody())
+    .force("collide", forceCollide)
+    // .force('center', d3.forceCenter(centerX, centerY))
+    .force("x", d3.forceX(centerX).strength(strength))
+    .force("y", d3.forceY(centerY).strength(strength));
 
 // reduce number of circles on mobile screen due to slow computation
-if (
-  "matchMedia" in window &&
-  window.matchMedia("(max-device-width: 767px)").matches
-) {
-  data = data.filter(el => {
-    return el.value >= 50;
-  });
+    if (
+        "matchMedia" in window &&
+        window.matchMedia("(max-device-width: 767px)").matches
+    ) {
+        data = data.filter(el => {
+        return el.value >= 50;
+    });
 }
 
 let root = d3.hierarchy({ children: data }).sum(d => d.value);
@@ -166,265 +167,268 @@ let root = d3.hierarchy({ children: data }).sum(d => d.value);
 // we use pack() to automatically calculate radius conveniently only
 // and get only the leaves
 let nodes = pack(root)
-  .leaves()
-  .map(node => {
+    .leaves()
+    .map(node => {
     console.log("node:", node.x, (node.x - centerX) * 2);
     const data = node.data;
     return {
-      x: centerX + (node.x - centerX) * 3, // magnify start position to have transition to center movement
-      y: centerY + (node.y - centerY) * 3,
-      r: 0, // for tweening
-      radius: node.r, //original radius
-      id: data.cat + "." + data.name.replace(/\s/g, "-"),
-      cat: data.cat,
-      name: data.name,
-      value: data.value,
-      desc: data.desc
+        x: centerX + (node.x - centerX) * 3, // magnify start position to have transition to center movement
+        y: centerY + (node.y - centerY) * 3,
+        r: 0, // for tweening
+        radius: node.r, //original radius
+        id: data.cat + "." + data.name.replace(/\s/g, "-"),
+        cat: data.cat,
+        name: data.name,
+        value: data.value,
+        icon: data.icon,
+        desc: data.desc
     };
-  });
+    });
 simulation.nodes(nodes).on("tick", ticked);
 
 svg.style("background-color", "#eee");
 let node = svg
-  .selectAll(".node")
-  .data(nodes)
-  .enter()
-  .append("g")
-  .attr("class", "node")
-  .call(
+    .selectAll(".node")
+    .data(nodes)
+    .enter()
+    .append("g")
+    .attr("class", "node")
+    .call(
     d3
-      .drag()
-      .on("start", d => {
+        .drag()
+        .on("start", d => {
         if (!d3.event.active) simulation.alphaTarget(0.2).restart();
         d.fx = d.x;
         d.fy = d.y;
-      })
-      .on("drag", d => {
+        })
+        .on("drag", d => {
         d.fx = d3.event.x;
         d.fy = d3.event.y;
-      })
-      .on("end", d => {
+        })
+        .on("end", d => {
         if (!d3.event.active) simulation.alphaTarget(0);
         d.fx = null;
         d.fy = null;
-      })
-  );
+        })
+    );
 
 node
-  .append("circle")
-  .attr("id", d => d.id)
-  .attr("r", 0)
-  .style("fill", d => scaleColor(d.cat))
-  .transition()
-  .duration(2000)
-  .ease(d3.easeElasticOut)
-  .tween("circleIn", d => {
+    .append("circle")
+    .attr("id", d => d.id)
+    .attr("r", 0)
+    .style("fill", d => scaleColor(d.cat))
+    .transition()
+    .duration(2000)
+    .ease(d3.easeElasticOut)
+    .tween("circleIn", d => {
     let i = d3.interpolateNumber(0, d.radius);
     return t => {
-      d.r = i(t);
-      simulation.force("collide", forceCollide);
+        d.r = i(t);
+        simulation.force("collide", forceCollide);
     };
-  });
+    });
 
 node
-  .append("clipPath")
-  .attr("id", d => `clip-${d.id}`)
-  .append("use")
-  .attr("xlink:href", d => `#${d.id}`);
+    .append("clipPath")
+    .attr("id", d => `clip-${d.id}`)
+    .append("use")
+    .attr("xlink:href", d => `#${d.id}`);
 
 // display text as circle icon
 node
-  .filter(d => !String(d.icon).includes("img/"))
-  .append("text")
-  .classed("node-icon", true)
-  .attr("clip-path", d => `url(#clip-${d.id})`)
-  .selectAll("tspan")
-  .data(d => d.name.split(";"))
-  .enter()
-  .append("tspan")
-  .attr("x", 0)
-  .attr("y", (d, i, nodes) => 13 + (i - nodes.length / 2 - 0.5) * 10)
-  .text(name => name);
+    .filter(d => !String(d.icon).includes("img/"))
+    .append("text")
+    .classed("node-icon", true)
+    .attr("clip-path", d => `url(#clip-${d.id})`)
+    .selectAll("tspan")
+    // .data(d => d.icon.split(";"))
+    .enter()
+    .append("tspan")
+    .attr("x", 0)
+    .attr("y", (d, i, nodes) => 13 + (i - nodes.length / 2 - 0.5) * 10)
+    .text(name => name);
 
 // display image as circle icon
 node
-  .filter(d => String(d.icon).includes("img/"))
-  .append("image")
-  .classed("node-icon", true)
-  .attr("clip-path", d => `url(#clip-${d.id})`)
-  .attr("xlink:href", d => d.icon)
-  .attr("x", d => -d.radius * 0.7)
-  .attr("y", d => -d.radius * 0.7)
-  .attr("height", d => d.radius * 2 * 0.7)
-  .attr("width", d => d.radius * 2 * 0.7);
+    .filter(d => String(d.icon).includes("img/"))
+    .append("image")
+    .classed("node-icon", true)
+    .attr("clip-path", d => `url(#clip-${d.id})`)
+    .attr("xlink:href", d => d.icon)
+    .attr("x", d => -d.radius * 0.7)
+    .attr("y", d => -d.radius * 0.7)
+    .attr("height", d => d.radius * 2 * 0.7)
+    .attr("width", d => d.radius * 2 * 0.7);
 
-node.append("title").text(d => d.cat + "::" + d.name + "\n" + format(d.value));
+node
+    .append("title")
+    .text(d => d.cat + "::" + d.name + "\n" + format(d.value));
 
 let legendOrdinal = d3
-  .legendColor()
-  .scale(scaleColor)
-  .shape("circle");
+    .legendColor()
+    .scale(scaleColor)
+    .shape("circle");
 
 let legend = svg
-  .append("g")
-  .classed("legend-color", true)
-  .attr("text-anchor", "start")
-  .attr("transform", "translate(20,25)")
-  .style("font-size", "12px")
-  .call(legendOrdinal);
+    .append("g")
+    .classed("legend-color", true)
+    .attr("text-anchor", "start")
+    .attr("transform", "translate(20,30)")
+    .style("font-size", "12px")
+    .call(legendOrdinal);
 
 let sizeScale = d3
-  .scaleOrdinal()
-  .domain(["lower average salaray", "higher average salary"])
-  .range([5, 10]);
+    .scaleOrdinal()
+    .domain(["less use", "more use"])
+    .range([5, 10]);
 
 let legendSize = d3
-  .legendSize()
-  .scale(sizeScale)
-  .shape("circle")
-  .shapePadding(10)
-  .labelAlign("end");
+    .legendSize()
+    .scale(sizeScale)
+    .shape("circle")
+    .shapePadding(10)
+    .labelAlign("end");
 
 let legend2 = svg
-  .append("g")
-  .classed("legend-size", true)
-  .attr("text-anchor", "start")
-  .attr("transform", "translate(150, 25)")
-  .style("font-size", "12px")
-  .call(legendSize);
+    .append("g")
+    .classed("legend-size", true)
+    .attr("text-anchor", "start")
+    .attr("transform", "translate(150, 25)")
+    .style("font-size", "12px")
+    .call(legendSize);
 
 /*
-		<foreignObject class="circle-overlay" x="10" y="10" width="100" height="150">
-			<div class="circle-overlay__inner">
-				<h2 class="circle-overlay__title">ReactJS</h2>
-				<p class="circle-overlay__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, sunt, aspernatur. Autem repudiandae, laboriosam. Nulla quidem nihil aperiam dolorem repellendus pariatur, quaerat sed eligendi inventore ipsa natus fugiat soluta doloremque!</p>
-			</div>
-		</foreignObject>
-		*/
+    <foreignObject class="circle-overlay" x="10" y="10" width="100" height="150">
+        <div class="circle-overlay__inner">
+            <h2 class="circle-overlay__title">ReactJS</h2>
+            <p class="circle-overlay__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, sunt, aspernatur. Autem repudiandae, laboriosam. Nulla quidem nihil aperiam dolorem repellendus pariatur, quaerat sed eligendi inventore ipsa natus fugiat soluta doloremque!</p>
+        </div>
+    </foreignObject>
+    */
 let infoBox = node
-  .append("foreignObject")
-  .classed("circle-overlay hidden", true)
-  .attr("x", -350 * 0.5 * 0.8)
-  .attr("y", -350 * 0.5 * 0.8)
-//   .attr("height", 350 * 0.8)
-//   .attr("width", 350 * 0.8)
-  .append("xhtml:div")
-  .classed("circle-overlay__inner", true);
+    .append("foreignObject")
+    .classed("circle-overlay hidden", true)
+    .attr("x", -350 * 0.5 * 0.8)
+    .attr("y", -350 * 0.5 * 0.8)
+    .attr("height", 350 * 0.8)
+    .attr("width", 350 * 0.8)
+    .append("xhtml:div")
+    .classed("circle-overlay__inner", true);
 
 infoBox
-  .append("h2")
-  .classed("circle-overlay__title", true)
-  .text(d => d.name);
+    .append("h2")
+    .classed("circle-overlay__title", true)
+    .text(d => d.name);
 
 infoBox
-  .append("p")
-  .classed("circle-overlay__body", true)
-  .html(d => d.desc);
+    .append("p")
+    .classed("circle-overlay__body", true)
+    .html(d => d.desc);
 
 node.on("click", currentNode => {
-  d3.event.stopPropagation();
-  console.log("currentNode", currentNode);
-  let currentTarget = d3.event.currentTarget; // the <g> el
+    d3.event.stopPropagation();
+    console.log("currentNode", currentNode);
+    let currentTarget = d3.event.currentTarget; // the <g> el
 
-  if (currentNode === focusedNode) {
+    if (currentNode === focusedNode) {
     // no focusedNode or same focused node is clicked
     return;
-  }
-  let lastNode = focusedNode;
-  focusedNode = currentNode;
+    }
+    let lastNode = focusedNode;
+    focusedNode = currentNode;
 
-  simulation.alphaTarget(0.2).restart();
-  // hide all circle-overlay
-  d3.selectAll(".circle-overlay").classed("hidden", true);
-  d3.selectAll(".node-icon").classed("node-icon--faded", false);
+    simulation.alphaTarget(0.2).restart();
+    // hide all circle-overlay
+    d3.selectAll(".circle-overlay").classed("hidden", true);
+    d3.selectAll(".node-icon").classed("node-icon--faded", false);
 
-  // don't fix last node to center anymore
-  if (lastNode) {
+    // don't fix last node to center anymore
+    if (lastNode) {
     lastNode.fx = null;
     lastNode.fy = null;
     node
-      .filter((d, i) => i === lastNode.index)
-      .transition()
-      .duration(2000)
-      .ease(d3.easePolyOut)
-      .tween("circleOut", () => {
+        .filter((d, i) => i === lastNode.index)
+        .transition()
+        .duration(2000)
+        .ease(d3.easePolyOut)
+        .tween("circleOut", () => {
         let irl = d3.interpolateNumber(lastNode.r, lastNode.radius);
         return t => {
-          lastNode.r = irl(t);
+            lastNode.r = irl(t);
         };
-      })
-      .on("interrupt", () => {
+        })
+        .on("interrupt", () => {
         lastNode.r = lastNode.radius;
-      });
-  }
+        });
+    }
 
-  // if (!d3.event.active) simulation.alphaTarget(0.5).restart();
+    // if (!d3.event.active) simulation.alphaTarget(0.5).restart();
 
-  d3.transition()
+    d3.transition()
     .duration(2000)
     .ease(d3.easePolyOut)
     .tween("moveIn", () => {
-      console.log("tweenMoveIn", currentNode);
-      let ix = d3.interpolateNumber(currentNode.x, centerX);
-      let iy = d3.interpolateNumber(currentNode.y, centerY);
-      let ir = d3.interpolateNumber(currentNode.r, centerY * 0.5);
-      return function(t) {
+        console.log("tweenMoveIn", currentNode);
+        let ix = d3.interpolateNumber(currentNode.x, centerX);
+        let iy = d3.interpolateNumber(currentNode.y, centerY);
+        let ir = d3.interpolateNumber(currentNode.r, centerY * 0.5);
+        return function(t) {
         // console.log('i', ix(t), iy(t));
         currentNode.fx = ix(t);
         currentNode.fy = iy(t);
         currentNode.r = ir(t);
         simulation.force("collide", forceCollide);
-      };
+        };
     })
     .on("end", () => {
-      simulation.alphaTarget(0);
-      let $currentGroup = d3.select(currentTarget);
-      $currentGroup.select(".circle-overlay").classed("hidden", false);
-      $currentGroup.select(".node-icon").classed("node-icon--faded", true);
+        simulation.alphaTarget(0);
+        let $currentGroup = d3.select(currentTarget);
+        $currentGroup.select(".circle-overlay").classed("hidden", false);
+        $currentGroup.select(".node-icon").classed("node-icon--faded", true);
     })
     .on("interrupt", () => {
-      console.log("move interrupt", currentNode);
-      currentNode.fx = null;
-      currentNode.fy = null;
-      simulation.alphaTarget(0);
+        console.log("move interrupt", currentNode);
+        currentNode.fx = null;
+        currentNode.fy = null;
+        simulation.alphaTarget(0);
     });
 });
 
 // blur
 d3.select(document).on("click", () => {
-  let target = d3.event.target;
-  // check if click on document but not on the circle overlay
-  if (!target.closest("#circle-overlay") && focusedNode) {
+    let target = d3.event.target;
+    // check if click on document but not on the circle overlay
+    if (!target.closest("#circle-overlay") && focusedNode) {
     focusedNode.fx = null;
     focusedNode.fy = null;
     simulation.alphaTarget(0.2).restart();
     d3.transition()
-      .duration(2000)
-      .ease(d3.easePolyOut)
-      .tween("moveOut", function() {
+        .duration(2000)
+        .ease(d3.easePolyOut)
+        .tween("moveOut", function() {
         console.log("tweenMoveOut", focusedNode);
         let ir = d3.interpolateNumber(focusedNode.r, focusedNode.radius);
         return function(t) {
-          focusedNode.r = ir(t);
-          simulation.force("collide", forceCollide);
+            focusedNode.r = ir(t);
+            simulation.force("collide", forceCollide);
         };
-      })
-      .on("end", () => {
+        })
+        .on("end", () => {
         focusedNode = null;
         simulation.alphaTarget(0);
-      })
-      .on("interrupt", () => {
+        })
+        .on("interrupt", () => {
         simulation.alphaTarget(0);
-      });
+        });
 
     // hide all circle-overlay
     d3.selectAll(".circle-overlay").classed("hidden", true);
     d3.selectAll(".node-icon").classed("node-icon--faded", false);
-  }
+    }
 });
 
 function ticked() {
-  node
+    node
     .attr("transform", d => `translate(${d.x},${d.y})`)
     .select("circle")
     .attr("r", d => d.r);
