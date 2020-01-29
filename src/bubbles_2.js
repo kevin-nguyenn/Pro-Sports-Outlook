@@ -26,17 +26,18 @@ let data = [
   //     value: 89,
   //     desc: `fill`
   // },
-  // {
-  //     cat: "CO",
-  //     name: "Denver",
-  //     value: 82.7,
-  //     desc: `fill`
-  // },
+  {
+      cat: "CO",
+      name: "Denver",
+      value: 82.7,
+      icon: "img/denver-nuggets.svg",
+      desc: `fill`
+  },
   {
       cat: "D.C.",
       name: "Washington",
       value: 89.1,
-      icon: "",
+      icon: "img/washington-dc-art.jpg",
       desc: `fill`
   },
   {
@@ -46,30 +47,34 @@ let data = [
       icon: 'img/miami-vice.png',
       desc: `fill`
   },
-  // {
-  //     cat: "GA",
-  //     name: "Atlanta",
-  //     value: 79,
-  //     desc: `fill`
-  // },
-  // {
-  //     cat: "IL",
-  //     name: "Chicago",
-  //     value: 82.1,
-  //     desc: `fill`
-  // },
-  // {
-  //     cat: "MA",
-  //     name: "Boston",
-  //     value: 89.6,
-  //     desc: `fill`
-  // },
-  // {
-  //     cat: "MI",
-  //     name: "Ann Arbor",
-  //     value: 75.8,
-  //     desc: `fill`
-  // },
+  {
+      cat: "GA",
+      name: "Atlanta",
+      value: 79,
+      icon: 'img/vector-atlanta.png',
+      desc: `fill`
+  },
+  {
+      cat: "IL",
+      name: "Chicago",
+      value: 82.1,
+      icon: "img/chicago.png",
+      desc: `fill`
+  },
+  {
+      cat: "MA",
+      name: "Boston",
+      value: 89.6,
+      icon: "img/new.svg",
+      desc: `fill`
+  },
+  {
+      cat: "MI",
+      name: "Ann Arbor",
+      value: 75.8,
+      icon: "img/michigan.svg",
+      desc: `fill`
+  },
   // {
   //     cat: "MN",
   //     name: "Minneapolis",
@@ -82,30 +87,33 @@ let data = [
   //     value: 77.5,
   //     desc: `fill`
   // },
-  // {
-  //     cat: "NC",
-  //     name: "Charlotte",
-  //     value: 76.9,
-  //     desc: `fill`
-  // },
+  {
+      cat: "NC",
+      name: "Charlotte",
+      value: 76.9,
+      icon: "img/charlotte-1.svg",
+      desc: `fill`
+  },
   // {
   //     cat: "NC",
   //     name: "Durham",
   //     value: 79.9,
   //     desc: `fill`
   // },
-  // {
-  //     cat: "NY",
-  //     name: "New York",
-  //     value: 97.2,
-  //     desc: `fill`
-  // },
-  // {
-  //     cat: "OR",
-  //     name: "Portland",
-  //     value: 86.1,
-  //     desc: `fill`
-  // },
+  {
+      cat: "NY",
+      name: "New York",
+      value: 97.2,
+      icon: "img/new-york.png",
+      desc: `fill`
+  },
+  {
+      cat: "OR",
+      name: "Portland",
+      value: 86.1,
+      icon: "",
+      desc: `fill`
+  },
   // {
   //     cat: "UT",
   //     name: "Salt Lake City",
