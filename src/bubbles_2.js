@@ -1,143 +1,150 @@
 let data = [
   {
-    cat: "CO",
-    name: "Boulder",
-    value: 70,
-    icon: "img/boulder.png",
-    desc: `fill`
+    cat: "ON",
+    name: "Toronto",
+    value: 228.6,
+    icon: "img/raptors.png",
+    desc: `Tech Employment Growth ('13-'18): 54%`
   },
   {
     cat: "CA",
     name: "Los Angeles",
-    value: 91.5,
+    value: 139.8,
     icon: "img/lakers.png",
-    desc: `fill`
+    desc: `Tech Employment Growth ('13-'18): 16.4%`
   },
   {
     cat: "CA",
     name: "San Jose",
-    value: 112.4,
+    value: 353.8,
     icon: "img/san-jose.png",
-    desc: `fill`
+    desc: `Tech Employment Growth ('13-'18): 33.4%`
   },
   {
     cat: "CA",
     name: "San Francisco",
-    value: 115.8,
+    value: 353.8,
     icon: "img/warriors.png",
-    desc: `fill`
+    desc: `Tech Employment Growth ('13-'18): 33.4%`
   },
   {
-      cat: "CO",
-      name: "Denver",
-      value: 82.7,
-      icon: "img/denver-nuggets.svg",
-      desc: `fill`
+    cat: "CO",
+    name: "Denver",
+    value: 107.2,
+    icon: "img/denver-nuggets.svg",
+    desc: `Tech Employment Growth ('13-'18): 30.9%`
   },
   {
-      cat: "D.C.",
-      name: "Washington",
-      value: 89.1,
-      icon: "img/wizards.png",
-      desc: `fill`
+    cat: "D.C.",
+    name: "Washington",
+    value: 253.7,
+    icon: "img/wizards.png",
+    desc: `Tech Employment Growth ('13-'18): 2.2%`
   },
   {
-      cat: "FL",
-      name: "Miami",
-      value: 78.6,
-      icon: 'img/heat-vice.png',
-      desc: `fill`
+    cat: "FL",
+    name: "Miami",
+    value: 25.3,
+    icon: 'img/heat-vice.png',
+    desc: `Tech Employment Growth ('13-'18): 35.4%`
   },
   {
-      cat: "GA",
-      name: "Atlanta",
-      value: 79,
-      icon: 'img/atlanta.png',
-      desc: `fill`
+    cat: "GA",
+    name: "Atlanta",
+    value: 141.6,
+    icon: 'img/atlanta.png',
+    desc: `Tech Employment Growth ('13-'18): 29.1%`
   },
   {
-      cat: "IL",
-      name: "Chicago",
-      value: 82.1,
-      icon: "img/bulls.png",
-      desc: `fill`
+    cat: "IL",
+    name: "Chicago",
+    value: 166.7,
+    icon: "img/bulls.png",
+    desc: `Tech Employment Growth ('13-'18): 10.5%`
   },
   {
-      cat: "MI",
-      name: "Ann Arbor",
-      value: 75.8,
-      icon: "img/michigan.png",
-      desc: `fill`
+    cat: "MI",
+    name: "Detroit",
+    value: 86,
+    icon: "img/michigan.png",
+    desc: `Tech Employment Growth ('13-'18): 18.4%`
   },
   {
-      cat: "MA",
-      name: "Boston",
-      value: 89.6,
-      icon: "img/new.svg",
-      desc: `fill`
+    cat: "MA",
+    name: "Boston",
+    value: 160.1,
+    icon: "img/new.svg",
+    desc: `Tech Employment Growth ('13-'18): 2.4%`
   },
   {
-      cat: "MN",
-      name: "Minneapolis",
-      value: 78,
-      icon: "img/minneapolis.png",
-      desc: `fill`
+    cat: "MN",
+    name: "Minneapolis",
+    value: 92.8,
+    icon: "img/minneapolis.png",
+    desc: `Tech Employment Growth ('13-'18): 13.2%`
   },
   {
-      cat: "MO",
-      name: "St. Louis",
-      value: 77.5,
-      icon: "img/cardinals.png",
-      desc: `fill`
+    cat: "MO",
+    name: "St. Louis",
+    value: 54,
+    icon: "img/cardinals.png",
+    desc: `Tech Employment Growth ('13-'18): 6.5%`
   },
   {
-      cat: "NC",
-      name: "Charlotte",
-      value: 76.9,
-      icon: "img/charlotte-1.svg",
-      desc: `fill`
+    cat: "NC",
+    name: "Charlotte",
+    value: 55.4,
+    icon: "img/charlotte-1.svg",
+    desc: `Tech Employment Growth ('13-'18): 48.4%`
   },
   {
-      cat: "NY",
-      name: "New York",
-      value: 97.2,
-      icon: "img/knicks.png",
-      desc: `fill`
+    cat: "NY",
+    name: "New York",
+    value: 264.3,
+    icon: "img/knicks.png",
+    desc: `Tech Employment Growth ('13-'18): 20.5%`
   },
   {
-      cat: "OR",
-      name: "Portland",
-      value: 86.1,
-      icon: "img/portland.png",
-      desc: `fill`
+    cat: "OR",
+    name: "Portland",
+    value: 59.6,
+    icon: "img/portland.png",
+    desc: `Tech Employment Growth ('13-'18): 35.3%`
   },
   {
-      cat: "TX",
-      name: "Austin",
-      value: 89,
-      icon: "img/longhorns.png",
-      desc: `fill`
+    cat: "TX",
+    name: "Austin",
+    value: 72.4,
+    icon: "img/longhorns.png",
+    desc: `Tech Employment Growth ('13-'18): 12.6%`
   },
   {
-      cat: "UT",
-      name: "Salt Lake City",
-      value: 80.2,
-      icon: "img/jazz-2.png",
-      desc: `fill`
+    cat: "UT",
+    name: "Salt Lake City",
+    value: 47.8,
+    icon: "img/jazz-2.png",
+    desc: `Tech Employment Growth ('13-'18): 38.6%`
   },
   {
-      cat: "WA",
-      name: "Seattle",
-      value: 106.3,
-      icon: "img/seattle.png",
-      desc: `fill`
+    cat: "WA",
+    name: "Seattle",
+    value: 156.8,
+    icon: "img/seattle.png",
+    desc: `Tech Employment Growth ('13-'18): 24.3%`
   },
   {
-      cat: "WI",
-      name: "Madison",
-      value: 84.9,
-      icon: "img/wisconsin-badgers.png",
-      desc: `fill`
+    cat: "WI",
+    name: "Madison",
+    value: 23.5,
+    icon: "img/wisconsin-badgers.png",
+    desc: `Tech Employment Growth ('13-'18): 47%`
+  },
+  {
+    cat: "MD",
+    name: "Baltimore",
+    value: 75.2,
+    icon: "img/ravens.png",
+    desc: `Tech Employment Growth ('13-'18): 11.9%`
   }
 ];
 
