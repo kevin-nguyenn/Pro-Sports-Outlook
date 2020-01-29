@@ -4,147 +4,189 @@ let data = [
     name: "Toronto",
     value: 228.6,
     icon: "img/raptors.png",
-    desc: `Tech Employment Growth ('13-'18): 54%`
+    desc: `Tech Employment Growth ('13-'18): <br> 54%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.ca/Job/toronto-software-engineer-jobs-SRCH_IL.0,7_IC2281069_KO8,25.htm"
   },
   {
     cat: "CA",
     name: "Los Angeles",
     value: 139.8,
     icon: "img/lakers.png",
-    desc: `Tech Employment Growth ('13-'18): 16.4%`
+    desc: `Tech Employment Growth ('13-'18): <br> 16.4%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/los-angeles-software-engineer-jobs-SRCH_IL.0,11_IC1146821_KO12,29.htm"
   },
   {
     cat: "CA",
     name: "San Jose",
     value: 353.8,
     icon: "img/san-jose.png",
-    desc: `Tech Employment Growth ('13-'18): 33.4%`
+    desc: `Tech Employment Growth ('13-'18): <br> 33.4%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/san-jose-software-engineer-jobs-SRCH_IL.0,8_IC1147436_KO9,26.htm"
   },
   {
     cat: "CA",
     name: "San Francisco",
     value: 353.8,
     icon: "img/warriors.png",
-    desc: `Tech Employment Growth ('13-'18): 33.4%`
+    desc: `Tech Employment Growth ('13-'18): <br> 33.4%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/san-francisco-software-engineer-jobs-SRCH_IL.0,13_IC1147401_KO14,31.htm"
   },
   {
     cat: "CO",
     name: "Denver",
     value: 107.2,
     icon: "img/denver-nuggets.svg",
-    desc: `Tech Employment Growth ('13-'18): 30.9%`
+    desc: `Tech Employment Growth ('13-'18): <br> 30.9%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/denver-software-engineer-jobs-SRCH_IL.0,6_IC1148170_KO7,24.htm"
   },
   {
     cat: "D.C.",
     name: "Washington",
     value: 253.7,
     icon: "img/wizards.png",
-    desc: `Tech Employment Growth ('13-'18): 2.2%`
+    desc: `Tech Employment Growth ('13-'18): <br> 2.2%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/washington-software-engineer-jobs-SRCH_IL.0,10_IC1138213_KO11,28.htm"
   },
   {
     cat: "FL",
     name: "Miami",
     value: 25.3,
     icon: 'img/heat-vice.png',
-    desc: `Tech Employment Growth ('13-'18): 35.4%`
+    desc: `Tech Employment Growth ('13-'18): <br> 35.4%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/miami-software-engineer-jobs-SRCH_IL.0,5_IC1154170_KO6,23.htm"
   },
   {
     cat: "GA",
     name: "Atlanta",
     value: 141.6,
     icon: 'img/atlanta.png',
-    desc: `Tech Employment Growth ('13-'18): 29.1%`
+    desc: `Tech Employment Growth ('13-'18): <br> 29.1%`,
+    link: 'Find Jobs Here',
+    linkUrl: "asdf"
   },
   {
     cat: "IL",
     name: "Chicago",
     value: 166.7,
     icon: "img/bulls.png",
-    desc: `Tech Employment Growth ('13-'18): 10.5%`
+    desc: `Tech Employment Growth ('13-'18): <br> 10.5%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/atlanta-software-engineer-jobs-SRCH_IL.0,7_IC1155583_KO8,25.htm"
   },
   {
     cat: "MI",
     name: "Detroit",
     value: 86,
     icon: "img/michigan.png",
-    desc: `Tech Employment Growth ('13-'18): 18.4%`
+    desc: `Tech Employment Growth ('13-'18): <br> 18.4%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/detroit-software-engineer-jobs-SRCH_IL.0,7_IC1134644_KO8,25.htm"
   },
   {
     cat: "MA",
     name: "Boston",
     value: 160.1,
     icon: "img/new.svg",
-    desc: `Tech Employment Growth ('13-'18): 2.4%`
+    desc: `Tech Employment Growth ('13-'18): <br> 2.4%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/boston-software-engineer-jobs-SRCH_IL.0,6_IC1154532_KO7,24.htm"
   },
   {
     cat: "MN",
     name: "Minneapolis",
     value: 92.8,
     icon: "img/minneapolis.png",
-    desc: `Tech Employment Growth ('13-'18): 13.2%`
+    desc: `Tech Employment Growth ('13-'18): <br> 13.2%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/minneapolis-software-engineer-jobs-SRCH_IL.0,11_IC1142551_KO12,29.htm"
   },
   {
     cat: "MO",
     name: "St. Louis",
     value: 54,
     icon: "img/cardinals.png",
-    desc: `Tech Employment Growth ('13-'18): 6.5%`
+    desc: `Tech Employment Growth ('13-'18): <br> 6.5%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/saint-louis-software-engineer-jobs-SRCH_IL.0,11_IC1131270_KO12,29.htm"
   },
   {
     cat: "NC",
     name: "Charlotte",
     value: 55.4,
     icon: "img/charlotte-1.svg",
-    desc: `Tech Employment Growth ('13-'18): 48.4%`
+    desc: `Tech Employment Growth ('13-'18): <br> 48.4%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/charlotte-software-engineer-jobs-SRCH_IL.0,9_IC1138644_KO10,27.htm"
   },
   {
     cat: "NY",
     name: "New York",
     value: 264.3,
     icon: "img/knicks.png",
-    desc: `Tech Employment Growth ('13-'18): 20.5%`
+    desc: `Tech Employment Growth ('13-'18): <br> 20.5%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/new-york-software-engineer-jobs-SRCH_IL.0,8_IC1132348_KO9,26.htm"
   },
   {
     cat: "OR",
     name: "Portland",
     value: 59.6,
     icon: "img/portland.png",
-    desc: `Tech Employment Growth ('13-'18): 35.3%`
+    desc: `Tech Employment Growth ('13-'18): <br> 35.3%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/portland-software-engineer-jobs-SRCH_IL.0,8_IC1151614_KO9,26.htm"
   },
   {
     cat: "TX",
     name: "Austin",
     value: 72.4,
     icon: "img/longhorns.png",
-    desc: `Tech Employment Growth ('13-'18): 12.6%`
+    desc: `Tech Employment Growth ('13-'18): <br> 12.6%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/austin-software-engineer-jobs-SRCH_IL.0,6_IC1139761_KO7,24.htm"
   },
   {
     cat: "UT",
     name: "Salt Lake City",
     value: 47.8,
     icon: "img/jazz-2.png",
-    desc: `Tech Employment Growth ('13-'18): 38.6%`
+    desc: `Tech Employment Growth ('13-'18): <br> 38.6%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/salt-lake-city-software-engineer-jobs-SRCH_IL.0,14_IC1128289_KO15,32.htm"
   },
   {
     cat: "WA",
     name: "Seattle",
     value: 156.8,
     icon: "img/seattle.png",
-    desc: `Tech Employment Growth ('13-'18): 24.3%`
+    desc: `Tech Employment Growth ('13-'18): <br> 24.3%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/seattle-software-engineer-jobs-SRCH_IL.0,7_IC1150505_KO8,25.htm"
   },
   {
     cat: "WI",
     name: "Madison",
     value: 23.5,
     icon: "img/wisconsin-badgers.png",
-    desc: `Tech Employment Growth ('13-'18): 47%`
+    desc: `Tech Employment Growth ('13-'18): <br> 47%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/madison-software-developer-jobs-SRCH_IL.0,7_IC1133470_KO8,26.htm"
   },
   {
     cat: "MD",
     name: "Baltimore",
     value: 75.2,
     icon: "img/ravens.png",
-    desc: `Tech Employment Growth ('13-'18): 11.9%`
+    desc: `Tech Employment Growth ('13-'18): <br> 11.9%`,
+    link: 'Find Jobs Here',
+    linkUrl: "https://www.glassdoor.com/Job/baltimore-software-engineer-jobs-SRCH_IL.0,9_IC1153527_KO10,27.htm"
   }
 ];
 
@@ -205,7 +247,9 @@ let nodes = pack(root)
         name: data.name,
         value: data.value,
         icon: data.icon,
-        desc: data.desc
+        desc: data.desc,
+        link: data.link,
+        linkUrl: data.linkUrl
     };
     });
 simulation.nodes(nodes).on("tick", ticked);
@@ -340,6 +384,12 @@ infoBox
     .append("p")
     .classed("circle-overlay__body", true)
     .html(d => d.desc);
+
+infoBox
+    .append("a")
+    .attr('href', d => d.linkUrl)
+    .classed("circle-overlay__body", true)
+    .html(d => d.link);
 
 node.on("click", currentNode => {
     d3.event.stopPropagation();
