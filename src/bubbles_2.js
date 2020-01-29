@@ -1,9 +1,16 @@
 let data = [
   {
+    cat: "CO",
+    name: "Boulder",
+    value: 70,
+    icon: "img/boulder.png",
+    desc: `fill`
+  },
+  {
     cat: "CA",
     name: "Los Angeles",
     value: 91.5,
-    icon: "img/hollywood-sign.png",
+    icon: "img/lakers.png",
     desc: `fill`
   },
   {
@@ -17,15 +24,8 @@ let data = [
     cat: "CA",
     name: "San Francisco",
     value: 115.8,
-    icon: "img/golden-gate.png",
+    icon: "img/warriors.png",
     desc: `fill`
-  },
-  {
-      cat: "CO",
-      name: "Boulder",
-      value: 70,
-      icon: "img/boulder.png",
-      desc: `fill`
   },
   {
       cat: "CO",
@@ -38,14 +38,14 @@ let data = [
       cat: "D.C.",
       name: "Washington",
       value: 89.1,
-      icon: "img/washington-dc-art.jpg",
+      icon: "img/wizards.png",
       desc: `fill`
   },
   {
       cat: "FL",
       name: "Miami",
       value: 78.6,
-      icon: 'img/miami-vice.png',
+      icon: 'img/heat-vice.png',
       desc: `fill`
   },
   {
@@ -59,7 +59,7 @@ let data = [
       cat: "IL",
       name: "Chicago",
       value: 82.1,
-      icon: "img/chicago.png",
+      icon: "img/bulls.png",
       desc: `fill`
   },
   {
@@ -87,7 +87,7 @@ let data = [
       cat: "MO",
       name: "St. Louis",
       value: 77.5,
-      icon: "img/arch.png",
+      icon: "img/cardinals.png",
       desc: `fill`
   },
   {
@@ -101,7 +101,7 @@ let data = [
       cat: "NY",
       name: "New York",
       value: 97.2,
-      icon: "img/new-york.png",
+      icon: "img/knicks.png",
       desc: `fill`
   },
   {
@@ -115,21 +115,21 @@ let data = [
       cat: "TX",
       name: "Austin",
       value: 89,
-      icon: "img/austin-2.png",
+      icon: "img/longhorns.png",
       desc: `fill`
   },
   {
       cat: "UT",
       name: "Salt Lake City",
       value: 80.2,
-      icon: "img/salt-lake-city.png",
+      icon: "img/jazz-2.png",
       desc: `fill`
   },
   {
       cat: "WA",
       name: "Seattle",
       value: 106.3,
-      icon: "img/seattle-icon.png",
+      icon: "img/seattle.png",
       desc: `fill`
   },
   {
@@ -161,7 +161,7 @@ let pack = d3
 
 let forceCollide = d3.forceCollide(d => d.r + 1);
 
-// use the force
+// force
 let simulation = d3
     .forceSimulation()
     // .force('link', d3.forceLink().id(d => d.id))
@@ -171,7 +171,7 @@ let simulation = d3
     .force("x", d3.forceX(centerX).strength(strength))
     .force("y", d3.forceY(centerY).strength(strength));
 
-// reduce number of circles on mobile screen due to slow computation
+// for mobile
     if (
         "matchMedia" in window &&
         window.matchMedia("(max-device-width: 767px)").matches
@@ -183,8 +183,6 @@ let simulation = d3
 
 let root = d3.hierarchy({ children: data }).sum(d => d.value);
 
-// we use pack() to automatically calculate radius conveniently only
-// and get only the leaves
 let nodes = pack(root)
     .leaves()
     .map(node => {
@@ -298,7 +296,7 @@ let legend = svg
 
 let sizeScale = d3
     .scaleOrdinal()
-    .domain(["less use", "more use"])
+    .domain(["less tech jobs", "more tech jobs"])
     .range([5, 10]);
 
 let legendSize = d3
@@ -316,14 +314,6 @@ let legend2 = svg
     .style("font-size", "12px")
     .call(legendSize);
 
-/*
-    <foreignObject class="circle-overlay" x="10" y="10" width="100" height="150">
-        <div class="circle-overlay__inner">
-            <h2 class="circle-overlay__title">ReactJS</h2>
-            <p class="circle-overlay__body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam, sunt, aspernatur. Autem repudiandae, laboriosam. Nulla quidem nihil aperiam dolorem repellendus pariatur, quaerat sed eligendi inventore ipsa natus fugiat soluta doloremque!</p>
-        </div>
-    </foreignObject>
-    */
 let infoBox = node
     .append("foreignObject")
     .classed("circle-overlay hidden", true)
