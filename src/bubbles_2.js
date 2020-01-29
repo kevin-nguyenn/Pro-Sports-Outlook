@@ -3,14 +3,14 @@ let data = [
     cat: "CA",
     name: "Los Angeles",
     value: 91.5,
-    icon: "img/golden-gate.png",
+    icon: "img/hollywood-sign.png",
     desc: `fill`
   },
   {
     cat: "CA",
     name: "San Jose",
     value: 112.4,
-    icon: "img/golden-gate.png",
+    icon: "img/san-jose.png",
     desc: `fill`
   },
   {
@@ -20,12 +20,13 @@ let data = [
     icon: "img/golden-gate.png",
     desc: `fill`
   },
-  // {
-  //     cat: "CO",
-  //     name: "Boulder",
-  //     value: 89,
-  //     desc: `fill`
-  // },
+  {
+      cat: "CO",
+      name: "Boulder",
+      value: 70,
+      icon: "img/boulder.png",
+      desc: `fill`
+  },
   {
       cat: "CO",
       name: "Denver",
@@ -51,7 +52,7 @@ let data = [
       cat: "GA",
       name: "Atlanta",
       value: 79,
-      icon: 'img/vector-atlanta.png',
+      icon: 'img/atlanta.png',
       desc: `fill`
   },
   {
@@ -62,6 +63,13 @@ let data = [
       desc: `fill`
   },
   {
+      cat: "MI",
+      name: "Ann Arbor",
+      value: 75.8,
+      icon: "img/michigan.png",
+      desc: `fill`
+  },
+  {
       cat: "MA",
       name: "Boston",
       value: 89.6,
@@ -69,24 +77,19 @@ let data = [
       desc: `fill`
   },
   {
-      cat: "MI",
-      name: "Ann Arbor",
-      value: 75.8,
-      icon: "img/michigan.svg",
+      cat: "MN",
+      name: "Minneapolis",
+      value: 78,
+      icon: "img/minneapolis.png",
       desc: `fill`
   },
-  // {
-  //     cat: "MN",
-  //     name: "Minneapolis",
-  //     value: 78,
-  //     desc: `fill`
-  // },
-  // {
-  //     cat: "MO",
-  //     name: "St. Louis",
-  //     value: 77.5,
-  //     desc: `fill`
-  // },
+  {
+      cat: "MO",
+      name: "St. Louis",
+      value: 77.5,
+      icon: "img/arch.png",
+      desc: `fill`
+  },
   {
       cat: "NC",
       name: "Charlotte",
@@ -94,12 +97,6 @@ let data = [
       icon: "img/charlotte-1.svg",
       desc: `fill`
   },
-  // {
-  //     cat: "NC",
-  //     name: "Durham",
-  //     value: 79.9,
-  //     desc: `fill`
-  // },
   {
       cat: "NY",
       name: "New York",
@@ -111,27 +108,37 @@ let data = [
       cat: "OR",
       name: "Portland",
       value: 86.1,
-      icon: "",
+      icon: "img/portland.png",
       desc: `fill`
   },
-  // {
-  //     cat: "UT",
-  //     name: "Salt Lake City",
-  //     value: 80.2,
-  //     desc: `fill`
-  // },
-  // {
-  //     cat: "WA",
-  //     name: "Seattle",
-  //     value: 106.3,
-  //     desc: `fill`
-  // },
-  // {
-  //     cat: "WI",
-  //     name: "Madison",
-  //     value: 84.9,
-  //     desc: `fill`
-  // }
+  {
+      cat: "TX",
+      name: "Austin",
+      value: 89,
+      icon: "img/austin-2.png",
+      desc: `fill`
+  },
+  {
+      cat: "UT",
+      name: "Salt Lake City",
+      value: 80.2,
+      icon: "img/salt-lake-city.png",
+      desc: `fill`
+  },
+  {
+      cat: "WA",
+      name: "Seattle",
+      value: 106.3,
+      icon: "img/seattle-icon.png",
+      desc: `fill`
+  },
+  {
+      cat: "WI",
+      name: "Madison",
+      value: 84.9,
+      icon: "img/wisconsin-badgers.png",
+      desc: `fill`
+  }
 ];
 
 let svg = d3.select("svg");
