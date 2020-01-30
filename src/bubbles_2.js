@@ -390,11 +390,18 @@ infoBox
     .classed("circle-overlay__body", true)
     .html(d => d.desc);
 
+// Link for info box
 infoBox
     .append("a")
     .attr('href', d => d.linkUrl)
+    .attr('target', "_blank")
     .classed("circle-overlay__body", true)
     .html(d => d.link);
+
+// legend.on("click", currBubble => {
+//   d3.event.stopPropagation();
+//   d3.selectAll(".cat");
+// })
 
 node.on("click", currentNode => {
     d3.event.stopPropagation();
