@@ -102,7 +102,7 @@ let data = [
     cat: "MN",
     name: "Minneapolis",
     value: 92.8,
-    icon: "img/minneapolis.png",
+    icon: "img/vikings.png",
     desc: `Tech Employment Growth ('13-'18): <br> 13.2%`,
     link: 'Find Jobs Here',
     linkUrl: "https://www.glassdoor.com/Job/minneapolis-software-engineer-jobs-SRCH_IL.0,11_IC1142551_KO12,29.htm"
