@@ -381,6 +381,11 @@ infoBox
     .text(d => d.name);
 
 infoBox
+    .append("h3")
+    .classed("circle-overlay__title", true)
+    .text(d => d.value + "K Tech Positions");
+
+infoBox
     .append("p")
     .classed("circle-overlay__body", true)
     .html(d => d.desc);
