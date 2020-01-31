@@ -251,7 +251,7 @@ let nodes = pack(root)
         link: data.link,
         linkUrl: data.linkUrl
     };
-    });
+  });
 simulation.nodes(nodes).on("tick", ticked);
 
 svg.style("background-color", "#eee");
