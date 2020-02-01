@@ -398,10 +398,11 @@ infoBox
     .classed("circle-overlay__body", true)
     .html(d => `Find SWE Jobs for ${d.name} <br>` + d.link);
 
-legend.on("click", currBubble => {
-  d3.event.stopPropagation();
-  d3.selectAll(".cat");
-})
+  // Try to get filter working
+// legend.on("click", currBubble => {
+//   d3.event.stopPropagation();
+//   d3.selectAll(".cat");
+// })
 
 node.on("click", currentNode => {
     d3.event.stopPropagation();
