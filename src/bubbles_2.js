@@ -396,12 +396,12 @@ infoBox
     .attr('href', d => d.linkUrl)
     .attr('target', "_blank")
     .classed("circle-overlay__body", true)
-    .html(d => `Find SWE Jobs for ${d.name} ` + d.link);
+    .html(d => `Find SWE Jobs for ${d.name} <br>` + d.link);
 
-// legend.on("click", currBubble => {
-//   d3.event.stopPropagation();
-//   d3.selectAll(".cat");
-// })
+legend.on("click", currBubble => {
+  d3.event.stopPropagation();
+  d3.selectAll(".cat");
+})
 
 node.on("click", currentNode => {
     d3.event.stopPropagation();
@@ -443,7 +443,7 @@ node.on("click", currentNode => {
     // if (!d3.event.active) simulation.alphaTarget(0.5).restart();
 
     d3.transition()
-    .duration(2000)
+    .duration(1000)
     .ease(d3.easePolyOut)
     .tween("moveIn", () => {
         console.log("tweenMoveIn", currentNode);
@@ -481,7 +481,7 @@ d3.select(document).on("click", () => {
     focusedNode.fy = null;
     simulation.alphaTarget(0.2).restart();
     d3.transition()
-        .duration(2000)
+        .duration(1000)
         .ease(d3.easePolyOut)
         .tween("moveOut", function() {
         console.log("tweenMoveOut", focusedNode);
