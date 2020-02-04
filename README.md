@@ -1,4 +1,5 @@
 # TechCities-Outlook
+[Live Site]: https://kevin-nguyenn.github.io/TechCities-Outlook/
 
 ## Background
 TechCities-Outlook is a data visualization of the top 20 major tech cities in the US. This project will display each cities
