@@ -206,7 +206,7 @@ let scaleColor = d3.scaleOrdinal(d3.schemeCategory20);
 let pack = d3
     .pack()
     .size([width, height])
-    .padding(2.0);
+    .padding(1.5);
 
 let forceCollide = d3.forceCollide(d => d.r + 1);
 
@@ -242,7 +242,7 @@ let nodes = pack(root)
         y: centerY + (node.y - centerY) * 3,
         r: 0, // for tweening
         radius: node.r, //original radius
-        id: data.cat + "." + data.name.replace(/\s/g, "-"),
+        id: data.cat, // + "." + data.name.replace(/\s/g, "-"),
         cat: data.cat,
         name: data.name,
         value: data.value,
@@ -322,7 +322,7 @@ node
     .filter(d => String(d.icon).includes("img/"))
     .append("image")
     .classed("node-icon", true)
-    .attr("clip-path", d => `url(#clip-${d.id})`)
+    .attr("fill", d => `url(#clip-${d.id})`)
     .attr("xlink:href", d => d.icon)
     .attr("x", d => -d.radius * 0.7)
     .attr("y", d => -d.radius * 0.7)
@@ -376,7 +376,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   var clicked = false;
-  console.log(clicked)
+  // console.log(clicked)
   document.querySelectorAll(".legendCells > g").forEach((el) => {
     el.onclick = function () {
 
@@ -447,6 +447,7 @@ node.on("click", currentNode => {
     // hide all circle-overlay
     d3.selectAll(".circle-overlay").classed("hidden", true);
     d3.selectAll(".node-icon").classed("node-icon--faded", false);
+    node.style("opacity", 1);
 
     // don't fix last node to center anymore
     if (lastNode) {
