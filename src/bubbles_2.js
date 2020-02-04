@@ -206,7 +206,7 @@ let scaleColor = d3.scaleOrdinal(d3.schemeCategory20);
 let pack = d3
     .pack()
     .size([width, height])
-    .padding(1.5);
+    .padding(2.0);
 
 let forceCollide = d3.forceCollide(d => d.r + 1);
 
@@ -284,16 +284,17 @@ node
     .append("circle")
     .attr("id", d => d.id)
     .attr("r", 0)
+    // .attr("id", d => d.cat)
     .style("fill", d => scaleColor(d.cat))
     .transition()
     .duration(2000)
     .ease(d3.easeElasticOut)
     .tween("circleIn", d => {
-    let i = d3.interpolateNumber(0, d.radius);
-    return t => {
+      let i = d3.interpolateNumber(0, d.radius);
+      return t => {
         d.r = i(t);
         simulation.force("collide", forceCollide);
-    };
+     };
     });
 
 node
@@ -332,6 +333,8 @@ node
     .append("title")
     .text(d => d.cat + "::" + d.name + "\n" + format(d.value));
 
+// -------------------- LEGEND -----------------------
+
 let legendOrdinal = d3
     .legendColor()
     .scale(scaleColor)
@@ -365,6 +368,33 @@ let legend2 = svg
     .style("font-size", "12px")
     .call(legendSize);
 
+document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll(".legendCells > g").forEach((el, idx) => {
+      el.setAttribute('id', el.textContent)
+    });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  var clicked = false;
+  console.log(clicked)
+  document.querySelectorAll(".legendCells > g").forEach((el) => {
+    el.onclick = function () {
+
+      node.filter(function (d) {
+        return d.id !== el.id
+      }).style("opacity", 0.1)
+
+      node.filter(function (d) {
+        return d.id === el.id
+      }).style("opacity", 1)
+
+      clicked = true;
+    }
+  });
+});
+
+//------------------------------------------------------------
+// ------------------------- INFO BOX ------------------------
 let infoBox = node
     .append("foreignObject")
     .classed("circle-overlay hidden", true)
@@ -398,11 +428,8 @@ infoBox
     .classed("circle-overlay__body", true)
     .html(d => `Find SWE Jobs for ${d.name} <br>` + d.link);
 
-  // Try to get filter working
-// legend.on("click", currBubble => {
-//   d3.event.stopPropagation();
-//   d3.selectAll(".cat");
-// })
+// -------------------------------------------------------
+// NODE INTERACTION
 
 node.on("click", currentNode => {
     d3.event.stopPropagation();
