@@ -254,7 +254,7 @@ let nodes = pack(root)
   });
 simulation.nodes(nodes).on("tick", ticked);
 
-svg.style("background-color", "#eee");
+// svg.style("background-color", "#eee");
 let node = svg
     .selectAll(".node")
     .data(nodes)
@@ -262,21 +262,21 @@ let node = svg
     .append("g")
     .attr("class", "node")
     .call(
-    d3
+      d3
         .drag()
         .on("start", d => {
-        if (!d3.event.active) simulation.alphaTarget(0.2).restart();
-        d.fx = d.x;
-        d.fy = d.y;
+          if (!d3.event.active) simulation.alphaTarget(0.2).restart();
+          d.fx = d.x;
+          d.fy = d.y;
         })
         .on("drag", d => {
-        d.fx = d3.event.x;
-        d.fy = d3.event.y;
+          d.fx = d3.event.x;
+          d.fy = d3.event.y;
         })
         .on("end", d => {
-        if (!d3.event.active) simulation.alphaTarget(0);
-        d.fx = null;
-        d.fy = null;
+          if (!d3.event.active) simulation.alphaTarget(0);
+          d.fx = null;
+          d.fy = null;
         })
     );
 
