@@ -283,6 +283,7 @@ let node = svg
 node
     .append("circle")
     .attr("id", d => d.id)
+    .style("opacity", 0.6)
     .attr("r", 0)
     // .attr("id", d => d.cat)
     .style("fill", d => scaleColor(d.cat))
