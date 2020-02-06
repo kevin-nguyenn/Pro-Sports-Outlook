@@ -28,12 +28,23 @@
 
             * {
                 box-sizing: inherit;
-                color:rgb(225, 0, 0)
+                /* color: #D0CFCF; */
+            }
+
+            .content-header {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 1%;
+            }
+
+            .icons {
+                margin-right: 3%;
             }
         
             h1 {
                 font-size: 35px;
-                text-align: center;
+                color: #D0CFCF;
+                margin-left: 2%
             }
 
             h2 {
@@ -80,27 +91,28 @@
             .instruction {
                 text-align: center;
                 font-size: 17px;
+                color: #D0CFCF;
             }
 
-            .footer-list {
-                display: flex;
-                justify-content: flex-end;
-                padding: 20px 0px;
-                margin-right: 80px;
+            footer {
+                color: #D0CFCF;
+                font-size: 15px;
             }
         </style>
     </head>
 
     <body class="content">
-        <h1>TechCities Outlook
-
-            <a href="https://github.com/kevin-nguyenn/TechCities-Outlook" target="_blank"> <i class="fa fa-github"
-                style="font-size: 35px; margin-right: 10px;"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/kevin-nguyen-1583ab19b/" target="_blank"> <i class="fa fa-linkedin" 
-                style="font-size: 35px;"></i>
-            </a>
-        </h1>
+        <div class="content-header">
+            <h1>TechCities Outlook</h1>
+            <div class="icons">
+                <a href="https://github.com/kevin-nguyenn/TechCities-Outlook" target="_blank"> <i class="fa fa-github"
+                    style="font-size: 40px; margin-right: 10px;"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/kevin-nguyen-1583ab19b/" target="_blank"> <i class="fa fa-linkedin" 
+                    style="font-size: 40px;"></i>
+                </a>
+            </div>
+        </div>
 
         <br>
 

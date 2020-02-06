@@ -346,7 +346,8 @@ let legend = svg
     .classed("legend-color", true)
     .attr("text-anchor", "start")
     .attr("transform", "translate(20,30)")
-    .style("font-size", "12px")
+    .style("font-size", "15px")
+    .style("fill", "#41EAD4")
     .call(legendOrdinal);
 
 let sizeScale = d3
@@ -366,7 +367,8 @@ let legend2 = svg
     .classed("legend-size", true)
     .attr("text-anchor", "start")
     .attr("transform", "translate(150, 25)")
-    .style("font-size", "12px")
+    .style("font-size", "15px")
+    .style("fill", "#41EAD4")
     .call(legendSize);
 
 document.addEventListener('DOMContentLoaded', () => {
