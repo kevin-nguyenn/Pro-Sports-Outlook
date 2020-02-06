@@ -235,7 +235,7 @@ let root = d3.hierarchy({ children: data }).sum(d => d.value);
 let nodes = pack(root)
     .leaves()
     .map(node => {
-    // console.log("node:", node.x, (node.x - centerX) * 2);
+
     const data = node.data;
     return {
         x: centerX + (node.x - centerX) * 3, // magnify start position to have transition to center movement
@@ -379,7 +379,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   var clicked = false;
-  // console.log(clicked)
+
   document.querySelectorAll(".legendCells > g").forEach((el) => {
     el.onclick = function () {
 
@@ -436,7 +436,6 @@ infoBox
 
 node.on("click", currentNode => {
     d3.event.stopPropagation();
-    // console.log("currentNode", currentNode);
     let currentTarget = d3.event.currentTarget; // the <g> el
 
     if (currentNode === focusedNode) {
@@ -478,16 +477,15 @@ node.on("click", currentNode => {
     .duration(1000)
     .ease(d3.easePolyOut)
     .tween("moveIn", () => {
-        // console.log("tweenMoveIn", currentNode);
         let ix = d3.interpolateNumber(currentNode.x, centerX);
         let iy = d3.interpolateNumber(currentNode.y, centerY);
         let ir = d3.interpolateNumber(currentNode.r, centerY * 0.5);
+
         return function(t) {
-        // console.log('i', ix(t), iy(t));
-        currentNode.fx = ix(t);
-        currentNode.fy = iy(t);
-        currentNode.r = ir(t);
-        simulation.force("collide", forceCollide);
+          currentNode.fx = ix(t);
+          currentNode.fy = iy(t);
+          currentNode.r = ir(t);
+          simulation.force("collide", forceCollide);
         };
     })
     .on("end", () => {
@@ -497,7 +495,6 @@ node.on("click", currentNode => {
         $currentGroup.select(".node-icon").classed("node-icon--faded", true);
     })
     .on("interrupt", () => {
-        // console.log("move interrupt", currentNode);
         currentNode.fx = null;
         currentNode.fy = null;
         simulation.alphaTarget(0);
@@ -516,19 +513,19 @@ d3.select(document).on("click", () => {
         .duration(1000)
         .ease(d3.easePolyOut)
         .tween("moveOut", function() {
-        // console.log("tweenMoveOut", focusedNode);
         let ir = d3.interpolateNumber(focusedNode.r, focusedNode.radius);
+
         return function(t) {
             focusedNode.r = ir(t);
             simulation.force("collide", forceCollide);
         };
         })
         .on("end", () => {
-        focusedNode = null;
-        simulation.alphaTarget(0);
+          focusedNode = null;
+          simulation.alphaTarget(0);
         })
         .on("interrupt", () => {
-        simulation.alphaTarget(0);
+          simulation.alphaTarget(0);
         });
 
     // hide all circle-overlay
