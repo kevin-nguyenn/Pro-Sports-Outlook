@@ -69,7 +69,7 @@ let data = [
     icon: 'img/atlanta.png',
     desc: `Tech Employment Growth ('13-'18): <br> 29.1% <br> AVG APT Rent: <br> $1,223/mo`,
     link: 'Here',
-    linkUrl: "asdf"
+    linkUrl: "https://www.glassdoor.com/Job/atlanta-software-engineer-jobs-SRCH_IL.0,7_IC1155583_KO8,25.htm"
   },
   {
     cat: "IL",
