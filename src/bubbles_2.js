@@ -1,16 +1,16 @@
 let data = [
   {
-    cat: "ON",
-    name: "Toronto",
+    cat: "CA",
+    name: "Los Angeles Rams",
     value: 228.6,
-    icon: "img/raptors.png",
+    icon: "img/rams.png",
     desc: `Tech Employment Growth ('13-'18): <br> 54% <br> AVG APT Rent: <br> $1,363/mo`,
     link: 'Here',
     linkUrl: "https://www.glassdoor.ca/Job/toronto-software-engineer-jobs-SRCH_IL.0,7_IC2281069_KO8,25.htm"
   },
   {
     cat: "CA",
-    name: "Los Angeles",
+    name: "Los Angeles Lakers",
     value: 139.8,
     icon: "img/lakers.png",
     desc: `Tech Employment Growth ('13-'18): <br> 16.4% <br> AVG APT Rent: <br> $2,239/mo`,
@@ -19,16 +19,7 @@ let data = [
   },
   {
     cat: "CA",
-    name: "San Jose",
-    value: 353.8,
-    icon: "img/san-jose.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 33.4% <br> AVG APT Rent: <br> $2,856/mo`,
-    link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/san-jose-software-engineer-jobs-SRCH_IL.0,8_IC1147436_KO9,26.htm"
-  },
-  {
-    cat: "CA",
-    name: "San Francisco",
+    name: "Golden State Warriors",
     value: 353.8,
     icon: "img/warriors.png",
     desc: `Tech Employment Growth ('13-'18): <br> 33.4% <br> AVG APT Rent: <br> $2,856/mo`,
@@ -36,8 +27,17 @@ let data = [
     linkUrl: "https://www.glassdoor.com/Job/san-francisco-software-engineer-jobs-SRCH_IL.0,13_IC1147401_KO14,31.htm"
   },
   {
+    cat: "CA",
+    name: "San Francisco 49ers",
+    value: 353.8,
+    icon: "img/49ers.png",
+    desc: `Tech Employment Growth ('13-'18): <br> 33.4% <br> AVG APT Rent: <br> $2,856/mo`,
+    link: 'Here',
+    linkUrl: "https://www.glassdoor.com/Job/san-francisco-software-engineer-jobs-SRCH_IL.0,13_IC1147401_KO14,31.htm"
+  },
+  {
     cat: "CO",
-    name: "Denver",
+    name: "Denver Nuggets",
     value: 107.2,
     icon: "img/denver-nuggets.svg",
     desc: `Tech Employment Growth ('13-'18): <br> 30.9% <br> AVG APT Rent: <br> $1,489/mo`,
@@ -45,8 +45,26 @@ let data = [
     linkUrl: "https://www.glassdoor.com/Job/denver-software-engineer-jobs-SRCH_IL.0,6_IC1148170_KO7,24.htm"
   },
   {
+    cat: "CO",
+    name: "Denver Broncos",
+    value: 107.2,
+    icon: "img/broncos.png",
+    desc: `Tech Employment Growth ('13-'18): <br> 30.9% <br> AVG APT Rent: <br> $1,489/mo`,
+    link: 'Here',
+    linkUrl: "https://www.glassdoor.com/Job/denver-software-engineer-jobs-SRCH_IL.0,6_IC1148170_KO7,24.htm"
+  },
+  {
     cat: "D.C.",
-    name: "Washington",
+    name: "Washington Wizards",
+    value: 253.7,
+    icon: "img/redskins.png",
+    desc: `Tech Employment Growth ('13-'18): <br> 2.2% <br> AVG APT Rent: <br> $1,754/mo`,
+    link: 'Here',
+    linkUrl: "https://www.glassdoor.com/Job/washington-software-engineer-jobs-SRCH_IL.0,10_IC1138213_KO11,28.htm"
+  },
+  {
+    cat: "D.C.",
+    name: "Washington Redskins",
     value: 253.7,
     icon: "img/wizards.png",
     desc: `Tech Employment Growth ('13-'18): <br> 2.2% <br> AVG APT Rent: <br> $1,754/mo`,
@@ -55,7 +73,7 @@ let data = [
   },
   {
     cat: "FL",
-    name: "Miami",
+    name: "Miami Heat",
     value: 25.3,
     icon: 'img/heat-vice.png',
     desc: `Tech Employment Growth ('13-'18): <br> 35.4% <br> AVG APT Rent: <br> $1,630/mo`,
@@ -63,8 +81,26 @@ let data = [
     linkUrl: "https://www.glassdoor.com/Job/miami-software-engineer-jobs-SRCH_IL.0,5_IC1154170_KO6,23.htm"
   },
   {
+    cat: "FL",
+    name: "Miami Dolphins",
+    value: 25.3,
+    icon: 'img/dolphins.png',
+    desc: `Tech Employment Growth ('13-'18): <br> 35.4% <br> AVG APT Rent: <br> $1,630/mo`,
+    link: 'Here',
+    linkUrl: "https://www.glassdoor.com/Job/miami-software-engineer-jobs-SRCH_IL.0,5_IC1154170_KO6,23.htm"
+  },
+  {
     cat: "GA",
-    name: "Atlanta",
+    name: "Atlanta Falcons",
+    value: 141.6,
+    icon: 'img/atlanta.png',
+    desc: `Tech Employment Growth ('13-'18): <br> 29.1% <br> AVG APT Rent: <br> $1,223/mo`,
+    link: 'Here',
+    linkUrl: "https://www.glassdoor.com/Job/atlanta-software-engineer-jobs-SRCH_IL.0,7_IC1155583_KO8,25.htm"
+  },
+  {
+    cat: "GA",
+    name: "Atlanta Hawks",
     value: 141.6,
     icon: 'img/atlanta.png',
     desc: `Tech Employment Growth ('13-'18): <br> 29.1% <br> AVG APT Rent: <br> $1,223/mo`,
@@ -73,9 +109,18 @@ let data = [
   },
   {
     cat: "IL",
-    name: "Chicago",
+    name: "Chicago Bulls",
     value: 166.7,
     icon: "img/bulls.png",
+    desc: `Tech Employment Growth ('13-'18): <br> 10.5% <br> AVG APT Rent: <br> $1,505/mo`,
+    link: 'Here',
+    linkUrl: "https://www.glassdoor.com/Job/atlanta-software-engineer-jobs-SRCH_IL.0,7_IC1155583_KO8,25.htm"
+  },
+  {
+    cat: "IL",
+    name: "Chicago Bears",
+    value: 166.7,
+    icon: "img/bears.png",
     desc: `Tech Employment Growth ('13-'18): <br> 10.5% <br> AVG APT Rent: <br> $1,505/mo`,
     link: 'Here',
     linkUrl: "https://www.glassdoor.com/Job/atlanta-software-engineer-jobs-SRCH_IL.0,7_IC1155583_KO8,25.htm"
@@ -108,15 +153,6 @@ let data = [
     linkUrl: "https://www.glassdoor.com/Job/minneapolis-software-engineer-jobs-SRCH_IL.0,11_IC1142551_KO12,29.htm"
   },
   {
-    cat: "MO",
-    name: "St. Louis",
-    value: 54,
-    icon: "img/cardinals.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 6.5% <br> AVG APT Rent: <br> $899/mo`,
-    link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/saint-louis-software-engineer-jobs-SRCH_IL.0,11_IC1131270_KO12,29.htm"
-  },
-  {
     cat: "NC",
     name: "Charlotte",
     value: 55.4,
@@ -144,15 +180,6 @@ let data = [
     linkUrl: "https://www.glassdoor.com/Job/portland-software-engineer-jobs-SRCH_IL.0,8_IC1151614_KO9,26.htm"
   },
   {
-    cat: "TX",
-    name: "Austin",
-    value: 72.4,
-    icon: "img/longhorns.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 12.6% <br> AVG APT Rent: <br> $1,257/mo`,
-    link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/austin-software-engineer-jobs-SRCH_IL.0,6_IC1139761_KO7,24.htm"
-  },
-  {
     cat: "UT",
     name: "Salt Lake City",
     value: 47.8,
@@ -169,15 +196,6 @@ let data = [
     desc: `Tech Employment Growth ('13-'18): <br> 24.3% <br> AVG APT Rent: <br> $1,694/mo`,
     link: 'Here',
     linkUrl: "https://www.glassdoor.com/Job/seattle-software-engineer-jobs-SRCH_IL.0,7_IC1150505_KO8,25.htm"
-  },
-  {
-    cat: "WI",
-    name: "Madison",
-    value: 23.5,
-    icon: "img/wisconsin-badgers.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 47% <br> AVG APT Rent: <br> $1,150/mo`,
-    link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/madison-software-developer-jobs-SRCH_IL.0,7_IC1133470_KO8,26.htm"
   },
   {
     cat: "MD",
