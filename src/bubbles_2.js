@@ -2,7 +2,7 @@ let data = [
   {
     cat: "CA",
     name: "Los Angeles Rams",
-    value: 228.6,
+    value: 380,
     icon: "img/rams.png",
     desc: `Tech Employment Growth ('13-'18): <br> 54% <br> AVG APT Rent: <br> $1,363/mo`,
     link: 'Here',
@@ -11,7 +11,7 @@ let data = [
   {
     cat: "CA",
     name: "Los Angeles Lakers",
-    value: 139.8,
+    value: 440,
     icon: "img/lakers.png",
     desc: `Tech Employment Growth ('13-'18): <br> 16.4% <br> AVG APT Rent: <br> $2,239/mo`,
     link: 'Here',
@@ -20,7 +20,7 @@ let data = [
   {
     cat: "CA",
     name: "Golden State Warriors",
-    value: 353.8,
+    value: 430,
     icon: "img/warriors.png",
     desc: `Tech Employment Growth ('13-'18): <br> 33.4% <br> AVG APT Rent: <br> $2,856/mo`,
     link: 'Here',
@@ -29,7 +29,7 @@ let data = [
   {
     cat: "CA",
     name: "San Francisco 49ers",
-    value: 353.8,
+    value: 350,
     icon: "img/49ers.png",
     desc: `Tech Employment Growth ('13-'18): <br> 33.4% <br> AVG APT Rent: <br> $2,856/mo`,
     link: 'Here',
@@ -38,7 +38,7 @@ let data = [
   {
     cat: "CO",
     name: "Denver Nuggets",
-    value: 107.2,
+    value: 160,
     icon: "img/denver-nuggets.svg",
     desc: `Tech Employment Growth ('13-'18): <br> 30.9% <br> AVG APT Rent: <br> $1,489/mo`,
     link: 'Here',
@@ -47,7 +47,7 @@ let data = [
   {
     cat: "CO",
     name: "Denver Broncos",
-    value: 107.2,
+    value: 300,
     icon: "img/broncos.png",
     desc: `Tech Employment Growth ('13-'18): <br> 30.9% <br> AVG APT Rent: <br> $1,489/mo`,
     link: 'Here',
@@ -56,7 +56,7 @@ let data = [
   {
     cat: "D.C.",
     name: "Washington Wizards",
-    value: 253.7,
+    value: 175,
     icon: "img/redskins.png",
     desc: `Tech Employment Growth ('13-'18): <br> 2.2% <br> AVG APT Rent: <br> $1,754/mo`,
     link: 'Here',
@@ -65,7 +65,7 @@ let data = [
   {
     cat: "D.C.",
     name: "Washington Redskins",
-    value: 253.7,
+    value: 340,
     icon: "img/wizards.png",
     desc: `Tech Employment Growth ('13-'18): <br> 2.2% <br> AVG APT Rent: <br> $1,754/mo`,
     link: 'Here',
@@ -74,7 +74,7 @@ let data = [
   {
     cat: "FL",
     name: "Miami Heat",
-    value: 25.3,
+    value: 195,
     icon: 'img/heat-vice.png',
     desc: `Tech Employment Growth ('13-'18): <br> 35.4% <br> AVG APT Rent: <br> $1,630/mo`,
     link: 'Here',
@@ -83,7 +83,7 @@ let data = [
   {
     cat: "FL",
     name: "Miami Dolphins",
-    value: 25.3,
+    value: 276,
     icon: 'img/dolphins.png',
     desc: `Tech Employment Growth ('13-'18): <br> 35.4% <br> AVG APT Rent: <br> $1,630/mo`,
     link: 'Here',
@@ -92,7 +92,7 @@ let data = [
   {
     cat: "GA",
     name: "Atlanta Falcons",
-    value: 141.6,
+    value: 275.5,
     icon: 'img/atlanta.png',
     desc: `Tech Employment Growth ('13-'18): <br> 29.1% <br> AVG APT Rent: <br> $1,223/mo`,
     link: 'Here',
@@ -101,7 +101,7 @@ let data = [
   {
     cat: "GA",
     name: "Atlanta Hawks",
-    value: 141.6,
+    value: 152,
     icon: 'img/hawks.png',
     desc: `Tech Employment Growth ('13-'18): <br> 29.1% <br> AVG APT Rent: <br> $1,223/mo`,
     link: 'Here',
@@ -110,7 +110,7 @@ let data = [
   {
     cat: "IL",
     name: "Chicago Bulls",
-    value: 166.7,
+    value: 320,
     icon: "img/bulls.png",
     desc: `Tech Employment Growth ('13-'18): <br> 10.5% <br> AVG APT Rent: <br> $1,505/mo`,
     link: 'Here',
@@ -119,7 +119,7 @@ let data = [
   {
     cat: "IL",
     name: "Chicago Bears",
-    value: 166.7,
+    value: 345,
     icon: "img/bears.png",
     desc: `Tech Employment Growth ('13-'18): <br> 10.5% <br> AVG APT Rent: <br> $1,505/mo`,
     link: 'Here',
@@ -128,7 +128,7 @@ let data = [
   {
     cat: "MI",
     name: "Detroit Lions",
-    value: 86,
+    value: 195,
     icon: "img/lions.png",
     desc: `Tech Employment Growth ('13-'18): <br> 18.4% <br> AVG APT Rent: <br> $989/mo`,
     link: 'Here',
@@ -137,7 +137,7 @@ let data = [
   {
     cat: "MI",
     name: "Detroit Pistons",
-    value: 86,
+    value: 145,
     icon: "img/pistons.png",
     desc: `Tech Employment Growth ('13-'18): <br> 18.4% <br> AVG APT Rent: <br> $989/mo`,
     link: 'Here',
@@ -146,7 +146,7 @@ let data = [
   {
     cat: "MA",
     name: "New England Patriots",
-    value: 160.1,
+    value: 441,
     icon: "img/new.svg",
     desc: `Tech Employment Growth ('13-'18): <br> 2.4% <br> AVG APT Rent: <br> $2,164/mo`,
     link: 'Here',
@@ -155,7 +155,7 @@ let data = [
   {
     cat: "MA",
     name: "Boston Celtics",
-    value: 160.1,
+    value: 310,
     icon: "img/celtics.png",
     desc: `Tech Employment Growth ('13-'18): <br> 2.4% <br> AVG APT Rent: <br> $2,164/mo`,
     link: 'Here',
@@ -164,7 +164,7 @@ let data = [
   {
     cat: "MN",
     name: "Minnesota Vikings",
-    value: 92.8,
+    value: 270,
     icon: "img/vikings.png",
     desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG APT Rent: <br> $1,306/mo`,
     link: 'Here',
@@ -173,7 +173,7 @@ let data = [
   {
     cat: "MN",
     name: "Minnesota Timberwolves",
-    value: 92.8,
+    value: 137.5,
     icon: "img/timberwolves.png",
     desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG APT Rent: <br> $1,306/mo`,
     link: 'Here',
@@ -182,7 +182,7 @@ let data = [
   {
     cat: "NC",
     name: "Carolina Panthers",
-    value: 92.8,
+    value: 240,
     icon: "img/panthers.png",
     desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG APT Rent: <br> $1,306/mo`,
     link: 'Here',
@@ -191,7 +191,7 @@ let data = [
   {
     cat: "NC",
     name: "Charlotte Hornets",
-    value: 92.8,
+    value: 150,
     icon: "img/charlotte.svg",
     desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG APT Rent: <br> $1,306/mo`,
     link: 'Here',
@@ -200,7 +200,7 @@ let data = [
   {
     cat: "NY",
     name: "New York Knicks",
-    value: 264.3,
+    value: 460,
     icon: "img/knicks.png",
     desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
     link: 'Here',
@@ -209,7 +209,7 @@ let data = [
   {
     cat: "NY",
     name: "New York Giants",
-    value: 264.3,
+    value: 390,
     icon: "img/giants.png",
     desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
     link: 'Here',
@@ -218,7 +218,7 @@ let data = [
   {
     cat: "OH",
     name: "Cleveland Browns",
-    value: 264.3,
+    value: 217.5,
     icon: "img/browns.png",
     desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
     link: 'Here',
@@ -227,7 +227,7 @@ let data = [
   {
     cat: "OH",
     name: "Cleveland Cavaliers",
-    value: 264.3,
+    value: 151,
     icon: "img/cavs.png",
     desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
     link: 'Here',
@@ -236,7 +236,7 @@ let data = [
   {
     cat: "TX",
     name: "Houston Texans",
-    value: 264.3,
+    value: 310,
     icon: "img/texans.png",
     desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
     link: 'Here',
@@ -245,7 +245,7 @@ let data = [
   {
     cat: "TX",
     name: "Houston Rockets",
-    value: 264.3,
+    value: 247.5,
     icon: "img/rockets.png",
     desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
     link: 'Here',
