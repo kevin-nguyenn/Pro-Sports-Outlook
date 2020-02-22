@@ -4,7 +4,7 @@ let data = [
     name: "Los Angeles Rams",
     value: 380,
     icon: "img/rams.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 54% <br> AVG APT Rent: <br> $1,363/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 54% <br> AVG Ticket Price: <br> $118`,
     link: 'Here',
     linkUrl: "https://www.therams.com/tickets/"
   },
@@ -13,7 +13,7 @@ let data = [
     name: "Los Angeles Lakers",
     value: 440,
     icon: "img/lakers.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 16.4% <br> AVG APT Rent: <br> $2,239/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 16.4% <br> AVG Ticket Price: <br> $473`,
     link: 'Here',
     linkUrl: "https://www.nba.com/lakers/tickets"
   },
@@ -22,7 +22,7 @@ let data = [
     name: "Golden State Warriors",
     value: 430,
     icon: "img/warriors.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 33.4% <br> AVG APT Rent: <br> $2,856/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 33.4% <br> AVG Ticket Price: <br> $458`,
     link: 'Here',
     linkUrl: "https://www.nba.com/warriors/tickets"
   },
@@ -31,7 +31,7 @@ let data = [
     name: "San Francisco 49ers",
     value: 350,
     icon: "img/49ers.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 33.4% <br> AVG APT Rent: <br> $2,856/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 33.4% <br> AVG Ticket Price: <br> $117`,
     link: 'Here',
     linkUrl: "https://www.49ers.com/tickets/"
   },
@@ -40,7 +40,7 @@ let data = [
     name: "Denver Nuggets",
     value: 160,
     icon: "img/denver-nuggets.svg",
-    desc: `Tech Employment Growth ('13-'18): <br> 30.9% <br> AVG APT Rent: <br> $1,489/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 30.9% <br> AVG Ticket Price: <br> $154`,
     link: 'Here',
     linkUrl: "https://www.nba.com/nuggets/tickets"
   },
@@ -49,7 +49,7 @@ let data = [
     name: "Denver Broncos",
     value: 300,
     icon: "img/broncos.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 30.9% <br> AVG APT Rent: <br> $1,489/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 30.9% <br> AVG Ticket Price: <br> $105  `,
     link: 'Here',
     linkUrl: "https://www.denverbroncos.com/tickets/"
   },
@@ -58,7 +58,7 @@ let data = [
     name: "Washington Wizards",
     value: 175,
     icon: "img/redskins.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 2.2% <br> AVG APT Rent: <br> $1,754/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 2.2% <br> AVG Ticket Price: <br> $92`,
     link: 'Here',
     linkUrl: "https://www.nba.com/wizards/tickets"
   },
@@ -67,7 +67,7 @@ let data = [
     name: "Washington Redskins",
     value: 340,
     icon: "img/wizards.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 2.2% <br> AVG APT Rent: <br> $1,754/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 2.2% <br> AVG Ticket Price: <br> $103`,
     link: 'Here',
     linkUrl: "https://www.redskins.com/tickets/"
   },
@@ -76,7 +76,7 @@ let data = [
     name: "Miami Heat",
     value: 195,
     icon: 'img/heat-vice.png',
-    desc: `Tech Employment Growth ('13-'18): <br> 35.4% <br> AVG APT Rent: <br> $1,630/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 35.4% <br> AVG Ticket Price: <br> $150`,
     link: 'Here',
     linkUrl: "https://www.nba.com/heat/tickets/miami-heat-tickets"
   },
@@ -85,7 +85,7 @@ let data = [
     name: "Miami Dolphins",
     value: 276,
     icon: 'img/dolphins.png',
-    desc: `Tech Employment Growth ('13-'18): <br> 35.4% <br> AVG APT Rent: <br> $1,630/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 35.4% <br> AVG Ticket Price: <br> $85`,
     link: 'Here',
     linkUrl: "https://www.miamidolphins.com/tickets/"
   },
@@ -94,7 +94,7 @@ let data = [
     name: "Atlanta Falcons",
     value: 275.5,
     icon: 'img/atlanta.png',
-    desc: `Tech Employment Growth ('13-'18): <br> 29.1% <br> AVG APT Rent: <br> $1,223/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 29.1% <br> AVG Ticket Price: <br> $104`,
     link: 'Here',
     linkUrl: "https://www.atlantafalcons.com/tickets/"
   },
@@ -103,7 +103,7 @@ let data = [
     name: "Atlanta Hawks",
     value: 152,
     icon: 'img/hawks.png',
-    desc: `Tech Employment Growth ('13-'18): <br> 29.1% <br> AVG APT Rent: <br> $1,223/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 29.1% <br> AVG Ticket Price: <br> $107`,
     link: 'Here',
     linkUrl: "https://www.nba.com/hawks/tickets/"
   },
@@ -112,7 +112,7 @@ let data = [
     name: "Chicago Bulls",
     value: 320,
     icon: "img/bulls.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 10.5% <br> AVG APT Rent: <br> $1,505/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 10.5% <br> AVG Ticket Price: <br> $133`,
     link: 'Here',
     linkUrl: "https://www.nba.com/bulls/tickets/"
   },
@@ -121,7 +121,7 @@ let data = [
     name: "Chicago Bears",
     value: 345,
     icon: "img/bears.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 10.5% <br> AVG APT Rent: <br> $1,505/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 10.5% <br> AVG Ticket Price: <br> $125`,
     link: 'Here',
     linkUrl: "https://www.chicagobears.com/tickets/"
   },
@@ -130,7 +130,7 @@ let data = [
     name: "Detroit Lions",
     value: 195,
     icon: "img/lions.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 18.4% <br> AVG APT Rent: <br> $989/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 18.4% <br> AVG Ticket Price: <br> $93`,
     link: 'Here',
     linkUrl: "https://www.detroitlions.com/tickets/"
   },
@@ -139,7 +139,7 @@ let data = [
     name: "Detroit Pistons",
     value: 145,
     icon: "img/pistons.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 18.4% <br> AVG APT Rent: <br> $989/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 18.4% <br> AVG Ticket Price: <br> $69`,
     link: 'Here',
     linkUrl: "https://www.nba.com/pistons/tickets/"
   },
@@ -148,7 +148,7 @@ let data = [
     name: "New England Patriots",
     value: 441,
     icon: "img/new.svg",
-    desc: `Tech Employment Growth ('13-'18): <br> 2.4% <br> AVG APT Rent: <br> $2,164/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 2.4% <br> AVG Ticket Price: <br> $127`,
     link: 'Here',
     linkUrl: "https://www.patriots.com/tickets/"
   },
@@ -157,7 +157,7 @@ let data = [
     name: "Boston Celtics",
     value: 310,
     icon: "img/celtics.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 2.4% <br> AVG APT Rent: <br> $2,164/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 2.4% <br> AVG Ticket Price: <br> $154`,
     link: 'Here',
     linkUrl: "https://www.nba.com/celtics/tickets/"
   },
@@ -166,7 +166,7 @@ let data = [
     name: "Minnesota Vikings",
     value: 270,
     icon: "img/vikings.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG APT Rent: <br> $1,306/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG Ticket Price: <br> $104`,
     link: 'Here',
     linkUrl: "https://www.vikings.com/tickets/"
   },
@@ -175,7 +175,7 @@ let data = [
     name: "Minnesota Timberwolves",
     value: 137.5,
     icon: "img/timberwolves.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG APT Rent: <br> $1,306/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG Ticket Price: <br> $58`,
     link: 'Here',
     linkUrl: "https://www.nba.com/timberwolves/tickets/"
   },
@@ -184,7 +184,7 @@ let data = [
     name: "Carolina Panthers",
     value: 240,
     icon: "img/panthers.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG APT Rent: <br> $1,306/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG Ticket Price: <br> $100`,
     link: 'Here',
     linkUrl: "https://www.panthers.com/tickets/"
   },
@@ -193,7 +193,7 @@ let data = [
     name: "Charlotte Hornets",
     value: 150,
     icon: "img/charlotte.svg",
-    desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG APT Rent: <br> $1,306/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG Ticket Price: <br> $64`,
     link: 'Here',
     linkUrl: "https://www.nba.com/hornets/tickets/"
   },
@@ -202,7 +202,7 @@ let data = [
     name: "New York Knicks",
     value: 460,
     icon: "img/knicks.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG Ticket Price: <br> $267`,
     link: 'Here',
     linkUrl: "https://www.nba.com/knicks/ticket-central"
   },
@@ -211,7 +211,7 @@ let data = [
     name: "New York Giants",
     value: 390,
     icon: "img/giants.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG Ticket Price: <br> $115`,
     link: 'Here',
     linkUrl: "https://www.giants.com/tickets/"
   },
@@ -220,7 +220,7 @@ let data = [
     name: "Cleveland Browns",
     value: 217.5,
     icon: "img/browns.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG Ticket Price: <br> $74`,
     link: 'Here',
     linkUrl: "https://www.clevelandbrowns.com/tickets/"
   },
@@ -229,7 +229,7 @@ let data = [
     name: "Cleveland Cavaliers",
     value: 151,
     icon: "img/cavs.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG Ticket Price: <br> $72`,
     link: 'Here',
     linkUrl: "https://www.nba.com/cavaliers/tickets"
   },
@@ -238,7 +238,7 @@ let data = [
     name: "Houston Texans",
     value: 310,
     icon: "img/texans.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG Ticket Price: <br> $115`,
     link: 'Here',
     linkUrl: "https://www.houstontexans.com/tickets/"
   },
@@ -247,7 +247,7 @@ let data = [
     name: "Houston Rockets",
     value: 247.5,
     icon: "img/rockets.png",
-    desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
+    desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG Ticket Price: <br> $189`,
     link: 'Here',
     linkUrl: "https://www.nba.com/rockets/tickets"
   }
