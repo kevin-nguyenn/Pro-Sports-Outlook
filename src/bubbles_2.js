@@ -6,7 +6,7 @@ let data = [
     icon: "img/rams.png",
     desc: `Tech Employment Growth ('13-'18): <br> 54% <br> AVG APT Rent: <br> $1,363/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.ca/Job/toronto-software-engineer-jobs-SRCH_IL.0,7_IC2281069_KO8,25.htm"
+    linkUrl: "https://www.therams.com/tickets/"
   },
   {
     cat: "CA",
@@ -15,7 +15,7 @@ let data = [
     icon: "img/lakers.png",
     desc: `Tech Employment Growth ('13-'18): <br> 16.4% <br> AVG APT Rent: <br> $2,239/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/los-angeles-software-engineer-jobs-SRCH_IL.0,11_IC1146821_KO12,29.htm"
+    linkUrl: "https://www.nba.com/lakers/tickets"
   },
   {
     cat: "CA",
@@ -24,7 +24,7 @@ let data = [
     icon: "img/warriors.png",
     desc: `Tech Employment Growth ('13-'18): <br> 33.4% <br> AVG APT Rent: <br> $2,856/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/san-francisco-software-engineer-jobs-SRCH_IL.0,13_IC1147401_KO14,31.htm"
+    linkUrl: "https://www.nba.com/warriors/tickets"
   },
   {
     cat: "CA",
@@ -33,7 +33,7 @@ let data = [
     icon: "img/49ers.png",
     desc: `Tech Employment Growth ('13-'18): <br> 33.4% <br> AVG APT Rent: <br> $2,856/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/san-francisco-software-engineer-jobs-SRCH_IL.0,13_IC1147401_KO14,31.htm"
+    linkUrl: "https://www.49ers.com/tickets/"
   },
   {
     cat: "CO",
@@ -42,7 +42,7 @@ let data = [
     icon: "img/denver-nuggets.svg",
     desc: `Tech Employment Growth ('13-'18): <br> 30.9% <br> AVG APT Rent: <br> $1,489/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/denver-software-engineer-jobs-SRCH_IL.0,6_IC1148170_KO7,24.htm"
+    linkUrl: "https://www.nba.com/nuggets/tickets"
   },
   {
     cat: "CO",
@@ -51,7 +51,7 @@ let data = [
     icon: "img/broncos.png",
     desc: `Tech Employment Growth ('13-'18): <br> 30.9% <br> AVG APT Rent: <br> $1,489/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/denver-software-engineer-jobs-SRCH_IL.0,6_IC1148170_KO7,24.htm"
+    linkUrl: "https://www.denverbroncos.com/tickets/"
   },
   {
     cat: "D.C.",
@@ -60,7 +60,7 @@ let data = [
     icon: "img/redskins.png",
     desc: `Tech Employment Growth ('13-'18): <br> 2.2% <br> AVG APT Rent: <br> $1,754/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/washington-software-engineer-jobs-SRCH_IL.0,10_IC1138213_KO11,28.htm"
+    linkUrl: "https://www.nba.com/wizards/tickets"
   },
   {
     cat: "D.C.",
@@ -69,7 +69,7 @@ let data = [
     icon: "img/wizards.png",
     desc: `Tech Employment Growth ('13-'18): <br> 2.2% <br> AVG APT Rent: <br> $1,754/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/washington-software-engineer-jobs-SRCH_IL.0,10_IC1138213_KO11,28.htm"
+    linkUrl: "https://www.redskins.com/tickets/"
   },
   {
     cat: "FL",
@@ -78,7 +78,7 @@ let data = [
     icon: 'img/heat-vice.png',
     desc: `Tech Employment Growth ('13-'18): <br> 35.4% <br> AVG APT Rent: <br> $1,630/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/miami-software-engineer-jobs-SRCH_IL.0,5_IC1154170_KO6,23.htm"
+    linkUrl: "https://www.nba.com/heat/tickets/miami-heat-tickets"
   },
   {
     cat: "FL",
@@ -87,7 +87,7 @@ let data = [
     icon: 'img/dolphins.png',
     desc: `Tech Employment Growth ('13-'18): <br> 35.4% <br> AVG APT Rent: <br> $1,630/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/miami-software-engineer-jobs-SRCH_IL.0,5_IC1154170_KO6,23.htm"
+    linkUrl: "https://www.miamidolphins.com/tickets/"
   },
   {
     cat: "GA",
@@ -96,7 +96,7 @@ let data = [
     icon: 'img/atlanta.png',
     desc: `Tech Employment Growth ('13-'18): <br> 29.1% <br> AVG APT Rent: <br> $1,223/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/atlanta-software-engineer-jobs-SRCH_IL.0,7_IC1155583_KO8,25.htm"
+    linkUrl: "https://www.atlantafalcons.com/tickets/"
   },
   {
     cat: "GA",
@@ -105,7 +105,7 @@ let data = [
     icon: 'img/hawks.png',
     desc: `Tech Employment Growth ('13-'18): <br> 29.1% <br> AVG APT Rent: <br> $1,223/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/atlanta-software-engineer-jobs-SRCH_IL.0,7_IC1155583_KO8,25.htm"
+    linkUrl: "https://www.nba.com/hawks/tickets/"
   },
   {
     cat: "IL",
@@ -114,7 +114,7 @@ let data = [
     icon: "img/bulls.png",
     desc: `Tech Employment Growth ('13-'18): <br> 10.5% <br> AVG APT Rent: <br> $1,505/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/atlanta-software-engineer-jobs-SRCH_IL.0,7_IC1155583_KO8,25.htm"
+    linkUrl: "https://www.nba.com/bulls/tickets/"
   },
   {
     cat: "IL",
@@ -123,7 +123,7 @@ let data = [
     icon: "img/bears.png",
     desc: `Tech Employment Growth ('13-'18): <br> 10.5% <br> AVG APT Rent: <br> $1,505/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/atlanta-software-engineer-jobs-SRCH_IL.0,7_IC1155583_KO8,25.htm"
+    linkUrl: "https://www.chicagobears.com/tickets/"
   },
   {
     cat: "MI",
@@ -132,7 +132,7 @@ let data = [
     icon: "img/lions.png",
     desc: `Tech Employment Growth ('13-'18): <br> 18.4% <br> AVG APT Rent: <br> $989/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/detroit-software-engineer-jobs-SRCH_IL.0,7_IC1134644_KO8,25.htm"
+    linkUrl: "https://www.detroitlions.com/tickets/"
   },
   {
     cat: "MI",
@@ -141,7 +141,7 @@ let data = [
     icon: "img/pistons.png",
     desc: `Tech Employment Growth ('13-'18): <br> 18.4% <br> AVG APT Rent: <br> $989/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/detroit-software-engineer-jobs-SRCH_IL.0,7_IC1134644_KO8,25.htm"
+    linkUrl: "https://www.nba.com/pistons/tickets/"
   },
   {
     cat: "MA",
@@ -150,7 +150,7 @@ let data = [
     icon: "img/new.svg",
     desc: `Tech Employment Growth ('13-'18): <br> 2.4% <br> AVG APT Rent: <br> $2,164/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/boston-software-engineer-jobs-SRCH_IL.0,6_IC1154532_KO7,24.htm"
+    linkUrl: "https://www.patriots.com/tickets/"
   },
   {
     cat: "MA",
@@ -159,7 +159,7 @@ let data = [
     icon: "img/celtics.png",
     desc: `Tech Employment Growth ('13-'18): <br> 2.4% <br> AVG APT Rent: <br> $2,164/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/boston-software-engineer-jobs-SRCH_IL.0,6_IC1154532_KO7,24.htm"
+    linkUrl: "https://www.nba.com/celtics/tickets/"
   },
   {
     cat: "MN",
@@ -168,7 +168,7 @@ let data = [
     icon: "img/vikings.png",
     desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG APT Rent: <br> $1,306/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/minneapolis-software-engineer-jobs-SRCH_IL.0,11_IC1142551_KO12,29.htm"
+    linkUrl: "https://www.vikings.com/tickets/"
   },
   {
     cat: "MN",
@@ -177,7 +177,7 @@ let data = [
     icon: "img/timberwolves.png",
     desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG APT Rent: <br> $1,306/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/minneapolis-software-engineer-jobs-SRCH_IL.0,11_IC1142551_KO12,29.htm"
+    linkUrl: "https://www.nba.com/timberwolves/tickets/"
   },
   {
     cat: "NC",
@@ -186,7 +186,7 @@ let data = [
     icon: "img/panthers.png",
     desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG APT Rent: <br> $1,306/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/minneapolis-software-engineer-jobs-SRCH_IL.0,11_IC1142551_KO12,29.htm"
+    linkUrl: "https://www.panthers.com/tickets/"
   },
   {
     cat: "NC",
@@ -195,7 +195,7 @@ let data = [
     icon: "img/charlotte.svg",
     desc: `Tech Employment Growth ('13-'18): <br> 13.2% <br> AVG APT Rent: <br> $1,306/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/minneapolis-software-engineer-jobs-SRCH_IL.0,11_IC1142551_KO12,29.htm"
+    linkUrl: "https://www.nba.com/hornets/tickets/"
   },
   {
     cat: "NY",
@@ -204,7 +204,7 @@ let data = [
     icon: "img/knicks.png",
     desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/new-york-software-engineer-jobs-SRCH_IL.0,8_IC1132348_KO9,26.htm"
+    linkUrl: "https://www.nba.com/knicks/ticket-central"
   },
   {
     cat: "NY",
@@ -213,7 +213,7 @@ let data = [
     icon: "img/giants.png",
     desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/new-york-software-engineer-jobs-SRCH_IL.0,8_IC1132348_KO9,26.htm"
+    linkUrl: "https://www.giants.com/tickets/"
   },
   {
     cat: "OH",
@@ -222,7 +222,7 @@ let data = [
     icon: "img/browns.png",
     desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/new-york-software-engineer-jobs-SRCH_IL.0,8_IC1132348_KO9,26.htm"
+    linkUrl: "https://www.clevelandbrowns.com/tickets/"
   },
   {
     cat: "OH",
@@ -231,7 +231,7 @@ let data = [
     icon: "img/cavs.png",
     desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/new-york-software-engineer-jobs-SRCH_IL.0,8_IC1132348_KO9,26.htm"
+    linkUrl: "https://www.nba.com/cavaliers/tickets"
   },
   {
     cat: "TX",
@@ -240,7 +240,7 @@ let data = [
     icon: "img/texans.png",
     desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/new-york-software-engineer-jobs-SRCH_IL.0,8_IC1132348_KO9,26.htm"
+    linkUrl: "https://www.houstontexans.com/tickets/"
   },
   {
     cat: "TX",
@@ -249,7 +249,7 @@ let data = [
     icon: "img/rockets.png",
     desc: `Tech Employment Growth ('13-'18): <br> 20.5% <br> AVG APT Rent: <br> $4,120/mo`,
     link: 'Here',
-    linkUrl: "https://www.glassdoor.com/Job/new-york-software-engineer-jobs-SRCH_IL.0,8_IC1132348_KO9,26.htm"
+    linkUrl: "https://www.nba.com/rockets/tickets"
   }
 ];
 
