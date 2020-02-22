@@ -492,7 +492,7 @@ infoBox
     .attr('href', d => d.linkUrl)
     .attr('target', "_blank")
     .classed("circle-overlay__body", true)
-    .html(d => `Find SWE Jobs for ${d.name} <br>` + d.link);
+    .html(d => `Find ${d.name} Tickets <br>` + d.link);
 
 // -------------------------------------------------------
 // NODE INTERACTION
