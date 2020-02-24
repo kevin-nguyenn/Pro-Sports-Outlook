@@ -441,7 +441,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 document.addEventListener('DOMContentLoaded', () => {
-  let clicked = false;
 
   document.querySelectorAll(".legendCells > g").forEach((el) => {
     el.onclick = function () {
@@ -453,8 +452,6 @@ document.addEventListener('DOMContentLoaded', () => {
       node.filter(function (d) {
         return d.id === el.id
       }).style("opacity", 1)
-
-      clicked = true;
     }
   });
 });
@@ -479,7 +476,7 @@ infoBox
 infoBox
     .append("h3")
     .classed("circle-overlay__title", true)
-    .text(d => d.value + "K Tech Positions");
+    .text(d => d.value + "B Total Value");
 
 infoBox
     .append("p")
