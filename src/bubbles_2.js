@@ -2,7 +2,7 @@ let data = [
   {
     cat: "CA",
     name: "Los Angeles Rams",
-    value: 380,
+    value: 3.80,
     icon: "img/rams.png",
     desc: `Total Number of Team Championships: <br> 1 <br> AVG Ticket Price: <br> $118`,
     link: 'Here',
@@ -11,7 +11,7 @@ let data = [
   {
     cat: "CA",
     name: "Los Angeles Lakers",
-    value: 440,
+    value: 4.40,
     icon: "img/lakers.png",
     desc: `Total Number of Team Championships: <br> 16 (2nd in NBA) <br> AVG Ticket Price: <br> $473`,
     link: 'Here',
@@ -20,7 +20,7 @@ let data = [
   {
     cat: "CA",
     name: "Golden State Warriors",
-    value: 430,
+    value: 4.30,
     icon: "img/warriors.png",
     desc: `Total Number of Team Championships: <br> 6 <br> AVG Ticket Price: <br> $458`,
     link: 'Here',
@@ -29,7 +29,7 @@ let data = [
   {
     cat: "CA",
     name: "San Francisco 49ers",
-    value: 350,
+    value: 3.50,
     icon: "img/49ers.png",
     desc: `Total Number of Team Championships: <br> 5 <br> AVG Ticket Price: <br> $117`,
     link: 'Here',
@@ -38,7 +38,7 @@ let data = [
   {
     cat: "CO",
     name: "Denver Nuggets",
-    value: 160,
+    value: 1.60,
     icon: "img/denver-nuggets.svg",
     desc: `Total Number of Team Championships: <br> 0 <br> AVG Ticket Price: <br> $154`,
     link: 'Here',
@@ -47,7 +47,7 @@ let data = [
   {
     cat: "CO",
     name: "Denver Broncos",
-    value: 300,
+    value: 3.00,
     icon: "img/broncos.png",
     desc: `Total Number of Team Championships: <br> 3 <br> AVG Ticket Price: <br> $105  `,
     link: 'Here',
@@ -56,7 +56,7 @@ let data = [
   {
     cat: "D.C.",
     name: "Washington Wizards",
-    value: 175,
+    value: 1.75,
     icon: "img/wizards.png",
     desc: `Total Number of Team Championships: <br> 1 <br> AVG Ticket Price: <br> $92`,
     link: 'Here',
@@ -65,7 +65,7 @@ let data = [
   {
     cat: "D.C.",
     name: "Washington Redskins",
-    value: 340,
+    value: 3.40,
     icon: "img/redskins.png",
     desc: `Total Number of Team Championships: <br> 3 <br> AVG Ticket Price: <br> $103`,
     link: 'Here',
@@ -74,7 +74,7 @@ let data = [
   {
     cat: "FL",
     name: "Miami Heat",
-    value: 195,
+    value: 1.95,
     icon: 'img/heat-vice.png',
     desc: `Total Number of Team Championships: <br> 3 <br> AVG Ticket Price: <br> $150`,
     link: 'Here',
@@ -83,7 +83,7 @@ let data = [
   {
     cat: "FL",
     name: "Miami Dolphins",
-    value: 276,
+    value: 2.76,
     icon: 'img/dolphins.png',
     desc: `Total Number of Team Championships: <br> 2 <br> AVG Ticket Price: <br> $85`,
     link: 'Here',
@@ -92,7 +92,7 @@ let data = [
   {
     cat: "GA",
     name: "Atlanta Falcons",
-    value: 275.5,
+    value: 2.755,
     icon: 'img/atlanta.png',
     desc: `Total Number of Team Championships: <br> 0 <br> AVG Ticket Price: <br> $104`,
     link: 'Here',
@@ -101,7 +101,7 @@ let data = [
   {
     cat: "GA",
     name: "Atlanta Hawks",
-    value: 152,
+    value: 1.52,
     icon: 'img/hawks.png',
     desc: `Total Number of Team Championships: <br> 1 <br> AVG Ticket Price: <br> $107`,
     link: 'Here',
@@ -110,7 +110,7 @@ let data = [
   {
     cat: "IL",
     name: "Chicago Bulls",
-    value: 320,
+    value: 3.20,
     icon: "img/bulls.png",
     desc: `Total Number of Team Championships: <br> 6 <br> AVG Ticket Price: <br> $133`,
     link: 'Here',
@@ -119,7 +119,7 @@ let data = [
   {
     cat: "IL",
     name: "Chicago Bears",
-    value: 345,
+    value: 3.45,
     icon: "img/bears.png",
     desc: `Total Number of Team Championships: <br> 1 <br> AVG Ticket Price: <br> $125`,
     link: 'Here',
@@ -128,7 +128,7 @@ let data = [
   {
     cat: "MI",
     name: "Detroit Lions",
-    value: 195,
+    value: 1.95,
     icon: "img/lions.png",
     desc: `Total Number of Team Championships: <br> 0 <br> AVG Ticket Price: <br> $93`,
     link: 'Here',
@@ -137,7 +137,7 @@ let data = [
   {
     cat: "MI",
     name: "Detroit Pistons",
-    value: 145,
+    value: 1.45,
     icon: "img/pistons.png",
     desc: `Total Number of Team Championships: <br> 3 <br> AVG Ticket Price: <br> $69`,
     link: 'Here',
@@ -146,7 +146,7 @@ let data = [
   {
     cat: "MA",
     name: "New England Patriots",
-    value: 441,
+    value: 4.41,
     icon: "img/new.svg",
     desc: `Total Number of Team Championships: <br> 6 (Tied for 1st in NFL) <br> AVG Ticket Price: <br> $127`,
     link: 'Here',
@@ -155,7 +155,7 @@ let data = [
   {
     cat: "MA",
     name: "Boston Celtics",
-    value: 310,
+    value: 3.10,
     icon: "img/celtics.png",
     desc: `Total Number of Team Championships: <br> 17 (1st in NBA) <br> AVG Ticket Price: <br> $154`,
     link: 'Here',
@@ -164,7 +164,7 @@ let data = [
   {
     cat: "MN",
     name: "Minnesota Vikings",
-    value: 270,
+    value: 2.70,
     icon: "img/vikings.png",
     desc: `Total Number of Team Championships: <br> 0 <br> AVG Ticket Price: <br> $104`,
     link: 'Here',
@@ -173,7 +173,7 @@ let data = [
   {
     cat: "MN",
     name: "Minnesota Timberwolves",
-    value: 137.5,
+    value: 1.375,
     icon: "img/timberwolves.png",
     desc: `Total Number of Team Championships: <br> 0 <br> AVG Ticket Price: <br> $58`,
     link: 'Here',
@@ -182,7 +182,7 @@ let data = [
   {
     cat: "NC",
     name: "Carolina Panthers",
-    value: 240,
+    value: 2.40,
     icon: "img/panthers.png",
     desc: `Total Number of Team Championships: <br> 0 <br> AVG Ticket Price: <br> $100`,
     link: 'Here',
@@ -191,7 +191,7 @@ let data = [
   {
     cat: "NC",
     name: "Charlotte Hornets",
-    value: 150,
+    value: 1.50,
     icon: "img/charlotte.svg",
     desc: `Total Number of Team Championships: <br> 0 <br> AVG Ticket Price: <br> $64`,
     link: 'Here',
@@ -200,7 +200,7 @@ let data = [
   {
     cat: "NY",
     name: "New York Knicks",
-    value: 460,
+    value: 4.60,
     icon: "img/knicks.png",
     desc: `Total Number of Team Championships: <br> 2 <br> AVG Ticket Price: <br> $267`,
     link: 'Here',
@@ -209,7 +209,7 @@ let data = [
   {
     cat: "NY",
     name: "New York Giants",
-    value: 390,
+    value: 3.90,
     icon: "img/giants.png",
     desc: `Total Number of Team Championships: <br> 4 <br> AVG Ticket Price: <br> $115`,
     link: 'Here',
@@ -218,7 +218,7 @@ let data = [
   {
     cat: "OH",
     name: "Cleveland Browns",
-    value: 217.5,
+    value: 2.175,
     icon: "img/browns.png",
     desc: `Total Number of Team Championships: <br> 0 <br> AVG Ticket Price: <br> $74`,
     link: 'Here',
@@ -227,7 +227,7 @@ let data = [
   {
     cat: "OH",
     name: "Cleveland Cavaliers",
-    value: 151,
+    value: 1.51,
     icon: "img/cavs.png",
     desc: `Total Number of Team Championships: <br> 1 <br> AVG Ticket Price: <br> $72`,
     link: 'Here',
@@ -236,7 +236,7 @@ let data = [
   {
     cat: "TX",
     name: "Houston Texans",
-    value: 310,
+    value: 3.10,
     icon: "img/texans.png",
     desc: `Total Number of Team Championships: <br> 0 <br> AVG Ticket Price: <br> $115`,
     link: 'Here',
@@ -245,7 +245,7 @@ let data = [
   {
     cat: "TX",
     name: "Houston Rockets",
-    value: 247.5,
+    value: 2.475,
     icon: "img/rockets.png",
     desc: `Total Number of Team Championships: <br> 2 <br> AVG Ticket Price: <br> $189`,
     link: 'Here',
