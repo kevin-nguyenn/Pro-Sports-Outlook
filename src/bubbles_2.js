@@ -435,14 +435,14 @@ let legend2 = svg
     .call(legendSize);
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.querySelectorAll(".legendCells > g:first-child").forEach((el, idx) => {
+    document.querySelectorAll(".legendCells > g").forEach((el, idx) => {
       el.setAttribute('id', el.textContent)
     });
 });
 
 document.addEventListener('DOMContentLoaded', () => {
 
-  document.querySelectorAll(".legendCells > g:first-child").forEach((el) => {
+  document.querySelectorAll(".legendCells > g").forEach((el) => {
     el.onclick = function () {
 
       node.filter(function (d) {
