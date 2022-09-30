@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/kevin-nguyenn/TechCities-Outlook#readme",
   "dependencies": {
-    "d3": "^5.15.0",
+    "d3": "^7.6.1",
     "webpack": "^4.41.5"
   },
   "devDependencies": {
